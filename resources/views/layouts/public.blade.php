@@ -7,8 +7,111 @@
     <meta name="description" content="Hair Care Products Branding">
     <meta name="author" content="Carlos Quinones">
 
-    <title>Dream Beauty Brands</title>
+    <title>Dream Beauty Brands @yield('PageTitle')</title>
 
     <link rel="stylesheet" href="/css/app.css">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
 </head>
+
+<body>
+{{--Navigation--}}
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+        {{--Brand and toggle grouped for mobile display--}}
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#dbb-navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="#" class="navbar-brand">Dream Beauty Brand</a>
+        </div>
+        {{--Nav Menu Items--}}
+        <div class="collapse navbar-collapse" id="dbb-navbar-collapse">
+            {{--Top Level Menu--}}
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">Home</a></li>
+                {{--Dropdown Menu (Products)--}}
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Products <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Shampoo</a></li>
+                        <li><a href="#">Conditioner</a></li>
+                        <li><a href="#">Masks</a></li>
+                        <li><a href="#">Styling</a></li>
+                        <li><a href="#">Finishing</a></li>
+                        <li><a href="#">Tools</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+{{--Header Carousel--}}
+<header id="dbbCarousel" class="carousel slide">
+
+    {{--Indicators--}}
+    <ol class="carousel-indicators">
+        <li data-target="#dbbCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#dbbCarousel" data-slide-to="1"></li>
+        <li data-target="#dbbCarousel" data-slide-to="2"></li>
+    </ol>
+
+    {{--Slide Wrappers--}}
+    <div class="carousel-inner">
+        {{--Active Slide--}}
+        <div class="item active">
+            <div class="fill" style="background-image: url('/img/your-salon.jpeg');"></div>
+            <div class="carousel-caption">
+                <h2>Your Salon</h2>
+            </div>
+        </div>
+        {{--Slide--}}
+        <div class="item active">
+            <div class="fill" style="background-image: url('/img/your-clients.jpeg');"></div>
+            <div class="carousel-caption">
+                <h2>Your Clients</h2>
+            </div>
+        </div>
+        {{--Slide--}}
+        <div class="item active">
+            <div class="fill" style="background-image: url('/img/your-products.jpeg');"></div>
+            <div class="carousel-caption">
+                <h2>Your Products</h2>
+            </div>
+        </div>
+    </div>
+
+    {{--Carousel Controls--}}
+    <a class="left carousel-control" href="#dbbCarousel" data-slide="prev">
+        <span class="icon-prev"></span>
+    </a>
+    <a class="right carousel-control" href="#dbbCarousel" data-slide="next">
+        <span class="icon-next"></span>
+    </a>
+
+</header>
+
+{{--Page Contents--}}
+<div class="container">
+    @yield('PageContents')
+</div>
+
+<script src="/js/app.js"></script>
+<script>
+    $('.carousel').carousel({
+        interval: 5000
+    })
+</script>
+</body>
 </html>
