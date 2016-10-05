@@ -5817,7 +5817,8 @@ nav .navbar-header {
   nav .navbar-header a.navbar-brand {
     padding-top: 6px;
     font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 27px; }
+    font-size: 27px;
+    color: #fff; }
   nav .navbar-header small {
     display: block;
     font-size: 14px;
