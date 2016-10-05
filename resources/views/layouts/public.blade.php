@@ -31,7 +31,10 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a href="#" class="navbar-brand">Dream<span class="font-accent">Beauty</span>Brands<small>Your Salon - Your Clients - Your Products</small></a>
+            <a href="#" class="navbar-brand">
+                <span class="cap">D</span>ream<span class="font-accent"><span class="cap">B</span>eauty</span><span class="cap">B</span>rands
+                <small>Your Salon&nbsp;&nbsp;Your Clients&nbsp;&nbsp;Your Products</small>
+            </a>
         </div>
         {{--Nav Menu Items--}}
         <div class="collapse navbar-collapse" id="dbb-navbar-collapse">

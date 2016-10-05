@@ -74,10 +74,14 @@ nav {
   .navbar-header{
     text-align: center;
     a.navbar-brand{
-      padding-top: 6px;
+      padding-top: 7px;
       font-family: 'Open Sans Condensed', sans-serif;
       font-size: 27px;
+      text-transform: uppercase;
       color: $secondary-font-color;
+      span.cap {
+        font-size: 120%;
+      }
     }
     small{
       display: block;
