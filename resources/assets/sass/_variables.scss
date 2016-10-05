@@ -89,6 +89,33 @@ nav {
       color: $primary-accent-color;
     }
   }
+  ul.nav {
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    > li{
+      > a{
+      color: $secondary-font-color !important;
+      &:hover {
+        color: $primary-accent-color !important;
+      }
+}
+      &.dropdown{
+        > ul.dropdown-menu{
+          background-color: $primary-font-color;
+          > li {
+            > a{
+              color: $secondary-font-color !important;
+              &:hover {
+                color: $primary-accent-color !important;
+                background-color: inherit !important;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
 }
 
 /*
