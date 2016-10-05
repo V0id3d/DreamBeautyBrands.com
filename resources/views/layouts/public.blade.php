@@ -45,6 +45,15 @@
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Products <b class="caret"></b></a>
                     <ul class="dropdown-menu">
+                        {{--<li>--}}
+                            {{--<div class="content">--}}
+                                {{--<div class="row">--}}
+                                    {{--<div class="col-md-12">--}}
+                                        {{--<h1>TEST</h1>--}}
+                                    {{--</div>--}}
+                                {{--</div>--}}
+                            {{--</div>--}}
+                        {{--</li>--}}
                         <li><a href="#">Shampoo</a></li>
                         <li><a href="#">Conditioner</a></li>
                         <li><a href="#">Masks</a></li>
