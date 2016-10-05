@@ -71,6 +71,7 @@ $panel-inner-border: $primary-border-color;
 $navbar-default-bg: $secondary-bg-color;
 $navbar-default-color: $secondary-font-color;
 nav {
+  background-color: $secondary-bg-color !important;
   .navbar-header{
     text-align: center;
     a.navbar-brand{

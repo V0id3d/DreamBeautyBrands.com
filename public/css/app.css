@@ -5812,35 +5812,36 @@ body {
                                                       Navbar
 ------------------------------------------------------------------------------------------------------------------------
 */
-nav .navbar-header {
-  text-align: center; }
-  nav .navbar-header a.navbar-brand {
-    padding-top: 7px;
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 27px;
-    text-transform: uppercase;
-    color: #fff; }
-    nav .navbar-header a.navbar-brand span.cap {
-      font-size: 120%; }
-  nav .navbar-header small {
-    display: block;
-    font-size: 14px;
-    color: #66ccff; }
-
-nav ul.nav {
-  font-family: 'Lato', sans-serif;
-  font-weight: 600; }
-  nav ul.nav > li > a {
-    color: #fff !important; }
-    nav ul.nav > li > a:hover {
-      color: #66ccff !important; }
-  nav ul.nav > li.dropdown > ul.dropdown-menu {
-    background-color: #666; }
-    nav ul.nav > li.dropdown > ul.dropdown-menu > li > a {
+nav {
+  background-color: #333 !important; }
+  nav .navbar-header {
+    text-align: center; }
+    nav .navbar-header a.navbar-brand {
+      padding-top: 7px;
+      font-family: 'Open Sans Condensed', sans-serif;
+      font-size: 27px;
+      text-transform: uppercase;
+      color: #fff; }
+      nav .navbar-header a.navbar-brand span.cap {
+        font-size: 120%; }
+    nav .navbar-header small {
+      display: block;
+      font-size: 14px;
+      color: #66ccff; }
+  nav ul.nav {
+    font-family: 'Lato', sans-serif;
+    font-weight: 600; }
+    nav ul.nav > li > a {
       color: #fff !important; }
-      nav ul.nav > li.dropdown > ul.dropdown-menu > li > a:hover {
-        color: #66ccff !important;
-        background-color: inherit !important; }
+      nav ul.nav > li > a:hover {
+        color: #66ccff !important; }
+    nav ul.nav > li.dropdown > ul.dropdown-menu {
+      background-color: #666; }
+      nav ul.nav > li.dropdown > ul.dropdown-menu > li > a {
+        color: #fff !important; }
+        nav ul.nav > li.dropdown > ul.dropdown-menu > li > a:hover {
+          color: #66ccff !important;
+          background-color: inherit !important; }
 
 /*
 ------------------------------------------------------------------------------------------------------------------------
