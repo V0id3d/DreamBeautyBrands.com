@@ -77,14 +77,14 @@
             </div>
         </div>
         {{--Slide--}}
-        <div class="item active">
+        <div class="item">
             <div class="fill" style="background-image: url('/img/your-clients.jpeg');"></div>
             <div class="carousel-caption">
                 <h2>Your Clients</h2>
             </div>
         </div>
         {{--Slide--}}
-        <div class="item active">
+        <div class="item">
             <div class="fill" style="background-image: url('/img/your-products.jpeg');"></div>
             <div class="carousel-caption">
                 <h2>Your Products</h2>
@@ -105,6 +105,14 @@
 {{--Page Contents--}}
 <div class="container">
     @yield('PageContents')
+
+    <footer>
+        <div class="row">
+            <div class="col-lg-12">
+                <p>Copyright &copy; Your Website 2014</p>
+            </div>
+        </div>
+    </footer>
 </div>
 
 <script src="/js/app.js"></script>

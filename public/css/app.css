@@ -5792,6 +5792,13 @@ button.close {
                                                         Body
 ------------------------------------------------------------------------------------------------------------------------
 */
+html,
+body {
+  height: 100%; }
+
+body {
+  padding-top: 50px; }
+
 /*
 ------------------------------------------------------------------------------------------------------------------------
                                                       Borders
@@ -5824,18 +5831,16 @@ button.close {
 */
 header.carousel {
   height: 50%; }
-  header.carousel .item, header.carousel .item.active {
-    height: 100%; }
-  header.carousel .carousel-inner {
-    height: 100%; }
-  header.carousel .fill {
-    width: 100%;
-    height: 100%;
-    background-position: center;
-    background-size: cover; }
 
-@media (max-width: 767px) {
-  header.carousel .carousel {
-    height: 70%; } }
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner {
+  height: 100%; }
+
+header.carousel .fill {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover; }
 
 /*# sourceMappingURL=app.css.map */
