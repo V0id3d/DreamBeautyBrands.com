@@ -31,7 +31,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a href="#" class="navbar-brand">Dream Beauty Brand</a>
+            <a href="#" class="navbar-brand">Dream<span class="font-accent">Beauty</span>Brands<small>Your Salon - Your Clients - Your Products</small></a>
         </div>
         {{--Nav Menu Items--}}
         <div class="collapse navbar-collapse" id="dbb-navbar-collapse">

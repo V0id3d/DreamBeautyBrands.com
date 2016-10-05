@@ -17,6 +17,9 @@ $brand-success: #2ab27b;
 $brand-warning: #cbb956;
 $brand-danger:  #bf5329;
 
+.font-accent{
+  color: $primary-accent-color;
+}
 /*
 ------------------------------------------------------------------------------------------------------------------------
                                                       Typography
@@ -67,6 +70,21 @@ $panel-inner-border: $primary-border-color;
 
 $navbar-default-bg: $secondary-bg-color;
 $navbar-default-color: $secondary-font-color;
+nav {
+  .navbar-header{
+    text-align: center;
+    a.navbar-brand{
+      padding-top: 5px;
+      font-family: 'Open Sans Condensed', sans-serif;
+      font-size: 25px;
+    }
+    small{
+      display: block;
+      font-size: 13px;
+      color: $primary-accent-color;
+    }
+  }
+}
 
 /*
 ------------------------------------------------------------------------------------------------------------------------
