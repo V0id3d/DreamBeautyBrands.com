@@ -5812,36 +5812,46 @@ body {
                                                       Navbar
 ------------------------------------------------------------------------------------------------------------------------
 */
-nav {
-  background-color: #333 !important; }
-  nav .navbar-header {
+nav.dbbnav {
+  background-color: #333; }
+  nav.dbbnav .nav, nav.dbbnav .collapse, nav.dbbnav .dropup, nav.dbbnav .dropdown {
+    position: static; }
+  nav.dbbnav .container {
+    position: relative; }
+  nav.dbbnav .navbar-header {
     text-align: center; }
-    nav .navbar-header a.navbar-brand {
+    nav.dbbnav .navbar-header a.navbar-brand {
       padding-top: 7px;
       font-family: 'Open Sans Condensed', sans-serif;
       font-size: 27px;
       text-transform: uppercase;
       color: #fff; }
-      nav .navbar-header a.navbar-brand span.cap {
+      nav.dbbnav .navbar-header a.navbar-brand span.cap {
         font-size: 120%; }
-    nav .navbar-header small {
+    nav.dbbnav .navbar-header small {
       display: block;
       font-size: 14px;
       color: #66ccff; }
-  nav ul.nav {
+  nav.dbbnav ul.nav {
     font-family: 'Lato', sans-serif;
     font-weight: 600; }
-    nav ul.nav > li > a {
+    nav.dbbnav ul.nav > li > a {
       color: #fff !important; }
-      nav ul.nav > li > a:hover {
+      nav.dbbnav ul.nav > li > a:hover {
         color: #66ccff !important; }
-    nav ul.nav > li.dropdown > ul.dropdown-menu {
+    nav.dbbnav ul.nav > li.dropdown > ul.dropdown-menu {
+      left: auto;
       background-color: #666; }
-      nav ul.nav > li.dropdown > ul.dropdown-menu > li > a {
-        color: #fff !important; }
-        nav ul.nav > li.dropdown > ul.dropdown-menu > li > a:hover {
-          color: #66ccff !important;
-          background-color: inherit !important; }
+      nav.dbbnav ul.nav > li.dropdown > ul.dropdown-menu > li > a {
+        color: #fff; }
+        nav.dbbnav ul.nav > li.dropdown > ul.dropdown-menu > li > a:hover {
+          color: #66ccff;
+          background-color: inherit; }
+    nav.dbbnav ul.nav > li.dropdown.dbbnav-fw .dropdown-menu {
+      left: 0;
+      right: 0; }
+      nav.dbbnav ul.nav > li.dropdown.dbbnav-fw .dropdown-menu div.content {
+        padding: 20px 30px; }
 
 /*
 ------------------------------------------------------------------------------------------------------------------------

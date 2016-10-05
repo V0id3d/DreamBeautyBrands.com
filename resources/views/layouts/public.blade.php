@@ -21,7 +21,7 @@
 
 <body>
 {{--Navigation--}}
-<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+<nav class="navbar navbar-inverse navbar-fixed-top dbbnav" role="navigation">
     <div class="container">
         {{--Brand and toggle grouped for mobile display--}}
         <div class="navbar-header">
