@@ -71,13 +71,13 @@ $panel-inner-border: $primary-border-color;
 $navbar-default-bg: $secondary-bg-color;
 $navbar-default-color: $secondary-font-color;
 nav.dbbnav {
-  background-color: $secondary-bg-color;
   .nav, .collapse, .dropup, .dropdown {
     position: static;
   }
   .container {
     position: relative;
   }
+  background-color: $secondary-bg-color;
   .navbar-header{
     text-align: center;
     a.navbar-brand{
@@ -108,7 +108,6 @@ nav.dbbnav {
 }
       &.dropdown{
         > ul.dropdown-menu{
-          left: auto;
           background-color: $primary-font-color;
           > li {
             > a{
@@ -122,11 +121,27 @@ nav.dbbnav {
         }
       }
       &.dropdown.dbbnav-fw{
-        .dropdown-menu{
+        position: static;
+        ul.dropdown-menu{
           left: 0;
           right: 0;
-          div.content {
-            padding: 20px 30px;
+          width: 100%;
+          position: absolute;
+          .content{
+            @extend .text-center;
+          }
+          a{
+            color: $secondary-font-color;
+            white-space: normal;
+            text-decoration: none;
+            img {
+              margin: 0 auto;
+              display: block;
+            }
+            &:hover {
+              color: $primary-accent-color;
+              background-color: inherit;
+            }
           }
         }
       }

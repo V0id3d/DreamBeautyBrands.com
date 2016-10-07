@@ -42,24 +42,37 @@
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="#">Home</a></li>
                 {{--Dropdown Menu (Products)--}}
-                <li class="dropdown">
+                <li class="dropdown dbbnav-fw">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Products <b class="caret"></b></a>
                     <ul class="dropdown-menu">
-                        {{--<li>--}}
-                            {{--<div class="content">--}}
-                                {{--<div class="row">--}}
-                                    {{--<div class="col-md-12">--}}
-                                        {{--<h1>TEST</h1>--}}
-                                    {{--</div>--}}
-                                {{--</div>--}}
-                            {{--</div>--}}
-                        {{--</li>--}}
-                        <li><a href="#">Shampoo</a></li>
-                        <li><a href="#">Conditioner</a></li>
-                        <li><a href="#">Masks</a></li>
-                        <li><a href="#">Styling</a></li>
-                        <li><a href="#">Finishing</a></li>
-                        <li><a href="#">Tools</a></li>
+                        <div class="content">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <a href="#" class="">
+                                        <img src="/img/shampoo.svg" alt="Shampoo Image" style="width: 50px;"></span>
+                                        <span class="item-label">Shampoo</span>
+                                    </a>
+                                </div>
+                                <div class="col-md-4">
+                                    <a href="#" class="">
+                                        <img src="/img/shampoo.svg" alt="Shampoo Image" style="width: 50px;"></span>
+                                        <span class="item-label">Shampoo</span>
+                                    </a>
+                                </div>
+                                <div class="col-md-4">
+                                    <a href="#" class="">
+                                        <img src="/img/shampoo.svg" alt="Shampoo Image" style="width: 50px;"></span>
+                                        <span class="item-label">Shampoo</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        {{--<li><a href="#">Shampoo</a></li>--}}
+                        {{--<li><a href="#">Conditioner</a></li>--}}
+                        {{--<li><a href="#">Masks</a></li>--}}
+                        {{--<li><a href="#">Styling</a></li>--}}
+                        {{--<li><a href="#">Finishing</a></li>--}}
+                        {{--<li><a href="#">Tools</a></li>--}}
                     </ul>
                 </li>
                 <li><a href="#">About Us</a></li>
