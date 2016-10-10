@@ -123,6 +123,7 @@ nav.dbbnav {
       &.dropdown.dbbnav-fw{
         position: static;
         ul.dropdown-menu{
+          opacity: .8;
           border-top: none;
           left: 0;
           right: 0;
@@ -216,6 +217,41 @@ header.carousel {
     background-position: center;
     background-size: cover;
   }
+  .item {
+    .carousel-caption{
+      h2{
+        font-family: Lato, sans-serif;
+        font-weight: 900;
+        color: $secondary-bg-color;
+        @include box-shadow(lighten($secondary-bg-color, 20%))
+      }
+    }
+  }
+  .carousel-indicators{
+    li{
+      border-color: $primary-font-color;
+      &.active {
+        background-color: $secondary-bg-color;
+      }
+    }
+  }
+  .carousel-control {
+    background-image: none;
+    opacity: 0;
+    &:hover {
+      opacity: .4;
+    }
+    &.right:hover{
+      @include gradient-horizontal($start-color: rgba(51,204,255,0), $end-color: rgba(51,204,255,.6));
+    }
+    &.left:hover{
+      @include gradient-horizontal($start-color: rgba(51,204,255,.6), $end-color: rgba(51,204,255,0));
+    }
+    span{
+      opacity: 0;
+    }
+  }
+
 }
 
 @media(max-width:767px){
