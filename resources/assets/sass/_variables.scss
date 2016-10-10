@@ -126,7 +126,7 @@ nav.dbbnav {
           left: 0;
           right: 0;
           width: 100%;
-          position: absolute;
+          position: static;
           list-style: none;
           @extend .text-center;
           > li{
@@ -144,7 +144,16 @@ nav.dbbnav {
             &:hover {
               color: $primary-accent-color;
               background-color: inherit;
+              img {
+                fill: $primary-accent-color;
+              }
             }
+          }
+          @media (min-width: $grid-float-breakpoint) {
+            width: auto;
+            position: relative;
+            left: auto;
+            right: auto;
           }
         }
       }

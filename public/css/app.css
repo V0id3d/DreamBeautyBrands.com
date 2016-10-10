@@ -5852,7 +5852,7 @@ nav.dbbnav {
         left: 0;
         right: 0;
         width: 100%;
-        position: absolute;
+        position: static;
         list-style: none; }
         nav.dbbnav ul.nav > li.dropdown.dbbnav-fw ul.dropdown-menu > li {
           display: inline-block; }
@@ -5866,6 +5866,14 @@ nav.dbbnav {
           nav.dbbnav ul.nav > li.dropdown.dbbnav-fw ul.dropdown-menu a:hover {
             color: #66ccff;
             background-color: inherit; }
+            nav.dbbnav ul.nav > li.dropdown.dbbnav-fw ul.dropdown-menu a:hover img {
+              fill: #66ccff; }
+        @media (min-width: 768px) {
+          nav.dbbnav ul.nav > li.dropdown.dbbnav-fw ul.dropdown-menu {
+            width: auto;
+            position: relative;
+            left: auto;
+            right: auto; } }
 
 /*
 ------------------------------------------------------------------------------------------------------------------------
