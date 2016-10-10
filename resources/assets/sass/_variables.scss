@@ -127,8 +127,11 @@ nav.dbbnav {
           right: 0;
           width: 100%;
           position: absolute;
-          .content{
+          list-style: none;
+          @extend .text-center;
+          > li{
             @extend .text-center;
+            display: inline-block;
           }
           a{
             color: $secondary-font-color;

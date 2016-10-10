@@ -1239,7 +1239,7 @@ mark,
 .text-right {
   text-align: right; }
 
-.text-center, nav.dbbnav ul.nav > li.dropdown.dbbnav-fw ul.dropdown-menu .content {
+.text-center, nav.dbbnav ul.nav > li.dropdown.dbbnav-fw ul.dropdown-menu, nav.dbbnav ul.nav > li.dropdown.dbbnav-fw ul.dropdown-menu > li {
   text-align: center; }
 
 .text-justify {
@@ -5852,7 +5852,10 @@ nav.dbbnav {
         left: 0;
         right: 0;
         width: 100%;
-        position: absolute; }
+        position: absolute;
+        list-style: none; }
+        nav.dbbnav ul.nav > li.dropdown.dbbnav-fw ul.dropdown-menu > li {
+          display: inline-block; }
         nav.dbbnav ul.nav > li.dropdown.dbbnav-fw ul.dropdown-menu a {
           color: #fff;
           white-space: normal;
