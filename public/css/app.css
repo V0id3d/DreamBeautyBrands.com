@@ -5947,4 +5947,88 @@ header.carousel {
   header.carousel {
     height: 70%; } }
 
+/*
+------------------------------------------------------------------------------------------------------------------------
+                                                      InfoGraphic
+------------------------------------------------------------------------------------------------------------------------
+*/
+div.infoGraphic {
+  margin: 20px auto; }
+  div.infoGraphic .nav-tabs {
+    position: relative;
+    margin: 40px auto;
+    margin-bottom: 0;
+    border-bottom-color: #666; }
+    div.infoGraphic .nav-tabs > li {
+      width: 20%; }
+      div.infoGraphic .nav-tabs > li a {
+        width: 70px;
+        height: 70px;
+        margin: 20px auto;
+        border-radius: 100%;
+        padding: 0; }
+        div.infoGraphic .nav-tabs > li a span.round-tab {
+          width: 70px;
+          height: 70px;
+          display: inline-block;
+          border-radius: 100px;
+          background: #fff;
+          border: 2px solid #666;
+          z-index: 2;
+          position: absolute;
+          left: 0;
+          text-align: center; }
+          div.infoGraphic .nav-tabs > li a span.round-tab img,
+          div.infoGraphic .nav-tabs > li a span.round-tab svg {
+            margin-top: 10%;
+            width: 75%; }
+          div.infoGraphic .nav-tabs > li a span.round-tab svg path,
+          div.infoGraphic .nav-tabs > li a span.round-tab svg circle,
+          div.infoGraphic .nav-tabs > li a span.round-tab svg polygon {
+            stroke: #666; }
+    div.infoGraphic .nav-tabs > li:after {
+      content: " ";
+      position: absolute;
+      left: 46%;
+      opacity: 0;
+      margin: 0 auto;
+      bottom: 0px;
+      border: 5px solid transparent;
+      border-bottom-color: #66ccff;
+      -webkit-transition: 0.1s ease-in-out;
+      transition: 0.1s ease-in-out; }
+    div.infoGraphic .nav-tabs li.active:after {
+      content: " ";
+      position: absolute;
+      left: 46%;
+      opacity: 1;
+      margin: 0 auto;
+      bottom: 0px;
+      border: 10px solid transparent;
+      border-bottom-color: #66ccff; }
+    div.infoGraphic .nav-tabs > li.active > a,
+    div.infoGraphic .nav-tabs > li.active > a:hover,
+    div.infoGraphic .nav-tabs > li.active > a:focus {
+      border: 0;
+      border-bottom-color: transparent; }
+      div.infoGraphic .nav-tabs > li.active > a span,
+      div.infoGraphic .nav-tabs > li.active > a:hover span,
+      div.infoGraphic .nav-tabs > li.active > a:focus span {
+        background-color: #66ccff; }
+  div.infoGraphic > .infoGraphic-inner {
+    position: relative; }
+    div.infoGraphic > .infoGraphic-inner > .connecting-line {
+      height: 2px;
+      background: #666;
+      position: absolute;
+      width: 80%;
+      margin: 0 auto;
+      left: 0;
+      right: 0;
+      top: 50%;
+      z-index: 1; }
+  div.infoGraphic > .tab-content .tab-pane img path,
+  div.infoGraphic > .tab-content .tab-pane svg path {
+    stroke: #666; }
+
 /*# sourceMappingURL=app.css.map */
