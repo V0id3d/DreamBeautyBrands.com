@@ -5869,7 +5869,7 @@ nav.dbbnav {
               color: #66ccff;
               background-color: inherit; }
               nav.dbbnav ul.nav > li.dropdown.dbbnav-fw ul.dropdown-menu > li a:hover svg path {
-                fill: #66ccff; }
+                stroke: #66ccff; }
       nav.dbbnav ul.nav > li.dropdown.dbbnav-fw:active, nav.dbbnav ul.nav > li.dropdown.dbbnav-fw.active,
       nav.dbbnav ul.nav > li.dropdown.dbbnav-fw.open > a:focus,
       nav.dbbnav ul.nav > li.dropdown.dbbnav-fw.open > a:hover,
