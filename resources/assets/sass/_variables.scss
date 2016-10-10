@@ -57,7 +57,7 @@ body {
 $primary-border-color: darken($primary-bg-color, 10%);
 $secondary-border-color: lighten($secondary-bg-color, 10%);
 $list-group-border: $primary-border-color;
-$navbar-default-border: $secondary-border-color;
+$navbar-default-border: $primary-font-color;
 $panel-default-border: $primary-border-color;
 $panel-inner-border: $primary-border-color;
 
@@ -123,6 +123,7 @@ nav.dbbnav {
       &.dropdown.dbbnav-fw{
         position: static;
         ul.dropdown-menu{
+          border-top: none;
           left: 0;
           right: 0;
           width: 100%;
@@ -150,7 +151,10 @@ nav.dbbnav {
         }
         &:active,
         &.active,
-        &.open a:focus{
+        &.open > a:focus,
+        &.open > a:hover,
+        &.open > a:active,
+        &.open > a{
           background-color: $primary-font-color !important;
         }
         @media (max-width: $screen-phone) {

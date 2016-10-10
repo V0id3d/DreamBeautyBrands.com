@@ -5849,6 +5849,7 @@ nav.dbbnav {
     nav.dbbnav ul.nav > li.dropdown.dbbnav-fw {
       position: static; }
       nav.dbbnav ul.nav > li.dropdown.dbbnav-fw ul.dropdown-menu {
+        border-top: none;
         left: 0;
         right: 0;
         width: 100%;
@@ -5867,7 +5868,10 @@ nav.dbbnav {
               color: #66ccff;
               background-color: inherit; }
       nav.dbbnav ul.nav > li.dropdown.dbbnav-fw:active, nav.dbbnav ul.nav > li.dropdown.dbbnav-fw.active,
-      nav.dbbnav ul.nav > li.dropdown.dbbnav-fw.open a:focus {
+      nav.dbbnav ul.nav > li.dropdown.dbbnav-fw.open > a:focus,
+      nav.dbbnav ul.nav > li.dropdown.dbbnav-fw.open > a:hover,
+      nav.dbbnav ul.nav > li.dropdown.dbbnav-fw.open > a:active,
+      nav.dbbnav ul.nav > li.dropdown.dbbnav-fw.open > a {
         background-color: #666 !important; }
       @media (max-width: 480px) {
         nav.dbbnav ul.nav > li.dropdown.dbbnav-fw {
