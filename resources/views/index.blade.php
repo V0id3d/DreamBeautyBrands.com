@@ -4,27 +4,6 @@
 <div class="container">
     <div class="row">
         <section>
-            <h1>Example</h1>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda consequuntur cumque dolorem enim explicabo impedit ipsa, ipsum minus, nesciunt nihil perspiciatis quo, similique suscipit. Amet nam recusandae tenetur! Consectetur, minima?
-            </p>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda consequuntur cumque dolorem enim explicabo impedit ipsa, ipsum minus, nesciunt nihil perspiciatis quo, similique suscipit. Amet nam recusandae tenetur! Consectetur, minima?
-            </p>
-
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus consectetur, corporis fugiat maiores odio quas sit velit voluptate! Asperiores consequuntur, debitis enim illo incidunt ipsam ipsum quia repellendus unde ut?
-            </p>
-
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa illo suscipit tempora! Error incidunt repellendus similique soluta veniam. Cumque doloremque enim fuga in ipsum laboriosam nemo nesciunt quam tenetur velit.
-            </p>
-        </section>
-    </div>
-</div>
-<div class="container test">
-    <div class="row">
-        <section>
             <div class="infoGraphic" id="howItWorks">
                 <div class="infoGraphic-inner">
                     <div class="connecting-line"></div>
