@@ -112,6 +112,8 @@ nav.dbbnav {
           > li {
             > a{
               color: $secondary-font-color;
+              &.active,
+              &:active,
               &:hover {
                 color: $primary-accent-color;
                 background-color: inherit;
@@ -161,6 +163,7 @@ nav.dbbnav {
         &.open > a:hover,
         &.open > a:active,
         &.open > a{
+          color: $primary-accent-color;
           background-color: $primary-font-color !important;
         }
         @media (max-width: $screen-phone) {

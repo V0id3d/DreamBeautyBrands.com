@@ -47,37 +47,37 @@
                     <ul class="dropdown-menu">
                         <li>
                             <a href="#" class="">
-                                <img src="/img/Shampoo.svg" alt="Shampoo Image" class="svg"></span>
+                                <img src="/img/Shampoo.svg" alt="Shampoo Image" class="svg">
                                 <span class="item-label">Shampoo</span>
                             </a>
                         </li>
                         <li>
                             <a href="#" class="">
-                                <img src="/img/Shampoo.svg" alt="Shampoo Image" class="svg"></span>
+                                <img src="/img/Shampoo.svg" alt="Shampoo Image" class="svg">
                                 <span class="item-label">Conditioner</span>
                             </a>
                         </li>
                         <li>
                             <a href="#" class="">
-                                <img src="/img/Masks.svg" alt="Shampoo Image" class="svg"></span>
+                                <img src="/img/Masks.svg" alt="Shampoo Image" class="svg">
                                 <span class="item-label">Masks</span>
                             </a>
                         </li>
                         <li>
                             <a href="#" class="">
-                                <img src="/img/Styling.svg" alt="Shampoo Image" class="svg"></span>
+                                <img src="/img/Styling.svg" alt="Shampoo Image" class="svg">
                                 <span class="item-label">Styling</span>
                             </a>
                         </li>
                         <li>
                             <a href="#" class="">
-                                <img src="/img/Finish.svg" alt="Shampoo Image" class="svg"></span>
+                                <img src="/img/Finish.svg" alt="Shampoo Image" class="svg">
                                 <span class="item-label">Finishing</span>
                             </a>
                         </li>
                         <li>
                             <a href="#" class="">
-                                <img src="/img/Tools.svg" alt="Shampoo Image" class="svg"></span>
+                                <img src="/img/Tools.svg" alt="Shampoo Image" class="svg">
                                 <span class="item-label">Tools</span>
                             </a>
                         </li>
@@ -142,9 +142,8 @@
 </header>
 
 {{--Page Contents--}}
+@yield('PageContents')
 <div class="container">
-    @yield('PageContents')
-
     <footer>
         <div class="row">
             <div class="col-lg-12">
@@ -153,7 +152,6 @@
         </div>
     </footer>
 </div>
-
 <script src="/js/app.js"></script>
 <script>
     $('.carousel').carousel({
