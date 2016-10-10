@@ -4,6 +4,30 @@
 <div class="container">
     <div class="row">
         <section>
+            <h1 class="text-center">Why Have your own products?</h1>
+            <p>
+                Why not? You’re already supplying products through your salon. Your own branded products are likely to
+                increase sales and increase revenue. Why promote other peoples brands, when you can promote your own?
+                You have a name that your clients trust. Everyone trusts their hairdresser, with a client in your chair
+                they are excited to be introduced and educated on your products, the products your using on their hair.
+                You will gain a higher client retention. If your client knows you have the best product for their hair,
+                they simply will have to come back to you to buy it! No internet competition! Its hard when you are
+                trying to sell products to your clients who trust you, when you know they are able to purchase them
+                online cheaper. This is a breach of your trust, and since most of us treat clients like friends, is a
+                hard thing to do resulting in less salon sales. Endless sale or promotional opportunities. You’re in
+                control, you know your clients and the way your salon works the best so create your offers directly for
+                your customers. No restrictions on re-sale. This is your brand name and you can sell your products
+                wherever and however you like. If you chose to promote your products online through a webstore or just
+                on social media, this is entirely your choice.
+            </p>
+
+        </section>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <section>
+            <h1 class="text-center">How it works?</h1>
             <div class="infoGraphic" id="howItWorks">
                 <div class="infoGraphic-inner">
                     <div class="connecting-line"></div>
