@@ -126,36 +126,40 @@ nav.dbbnav {
           left: 0;
           right: 0;
           width: 100%;
-          position: static;
+          position: absolute;
           list-style: none;
           @extend .text-center;
           > li{
             @extend .text-center;
             display: inline-block;
-          }
-          a{
-            color: $secondary-font-color;
-            white-space: normal;
-            text-decoration: none;
-            img {
-              margin: 0 auto;
-              display: block;
-            }
-            &:hover {
-              color: $primary-accent-color;
-              background-color: inherit;
+            a{
+              color: $secondary-font-color;
+              white-space: normal;
+              text-decoration: none;
               img {
-                fill: $primary-accent-color;
+                margin: 0 auto;
+                display: block;
+              }
+              &:hover {
+                color: $primary-accent-color;
+                background-color: inherit;
               }
             }
           }
-          @media (min-width: $grid-float-breakpoint) {
-            width: auto;
+
+        }
+        &:active,
+        &.active,
+        &.open a:focus{
+          background-color: $primary-font-color !important;
+        }
+        @media (max-width: $screen-phone) {
+          position: relative;
+          ul.dropdown-menu{
             position: relative;
-            left: auto;
-            right: auto;
           }
         }
+
       }
     }
   }
