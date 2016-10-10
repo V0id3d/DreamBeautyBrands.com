@@ -5866,6 +5866,10 @@ nav.dbbnav {
               width: 50px;
               margin: 0 auto;
               display: block; }
+              nav.dbbnav ul.nav > li.dropdown.dbbnav-fw ul.dropdown-menu > li a img path, nav.dbbnav ul.nav > li.dropdown.dbbnav-fw ul.dropdown-menu > li a svg path {
+                stroke: #fff;
+                fill: none;
+                stroke-width: .7; }
             nav.dbbnav ul.nav > li.dropdown.dbbnav-fw ul.dropdown-menu > li a:hover {
               color: #66ccff;
               background-color: inherit; }
@@ -6027,8 +6031,8 @@ div.infoGraphic {
       right: 0;
       top: 50%;
       z-index: 1; }
-  div.infoGraphic > .tab-content .tab-pane img path,
-  div.infoGraphic > .tab-content .tab-pane svg path {
-    stroke: #666; }
+
+div.container.test {
+  background-color: #66ccff; }
 
 /*# sourceMappingURL=app.css.map */

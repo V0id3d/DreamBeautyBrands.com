@@ -144,6 +144,11 @@ nav.dbbnav {
                 width: 50px;
                 margin: 0 auto;
                 display: block;
+                path{
+                  stroke: $secondary-font-color;
+                  fill: none;
+                  stroke-width: .7;
+                }
               }
               &:hover {
                 color: $primary-accent-color;
@@ -304,10 +309,6 @@ div.infoGraphic{
           svg polygon{
             stroke: $primary-font-color;
           }
-          //svg path#cloud,
-          //svg polygon#cloud{
-          //  fill: lighten($primary-font-color, 30%);
-          //}
         }
       }
     }
@@ -359,16 +360,20 @@ div.infoGraphic{
 
 
   }
-  > .tab-content {
-    .tab-pane{
-      img,
-      svg {
-        path {
-          stroke: $primary-font-color;
-        }
-      }
-    }
-  }
+  //> .tab-content {
+  //  > .tab-pane{
+  //    > img,
+  //    > svg {
+  //      > path {
+  //        stroke: $primary-font-color;
+  //      }
+  //    }
+  //  }
+  //}
+}
+
+div.container.test{
+  background-color: $primary-accent-color;
 }
 
 
