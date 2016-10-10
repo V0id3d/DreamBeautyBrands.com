@@ -137,13 +137,17 @@ nav.dbbnav {
               color: $secondary-font-color;
               white-space: normal;
               text-decoration: none;
-              img {
+              img, svg {
+                width: 50px;
                 margin: 0 auto;
                 display: block;
               }
               &:hover {
                 color: $primary-accent-color;
                 background-color: inherit;
+                svg path {
+                  fill: $primary-accent-color;
+                }
               }
             }
           }
