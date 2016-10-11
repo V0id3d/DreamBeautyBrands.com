@@ -5815,7 +5815,7 @@ footer {
   color: #fff;
   min-height: 250px; }
   footer .footer-brand a.navbar-brand {
-    margin: 0 0 10px;
+    margin: 0 auto;
     padding-top: 7px;
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 27px;

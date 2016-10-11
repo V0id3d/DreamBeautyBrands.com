@@ -148,13 +148,15 @@
 <footer>
     <div class="container">
         <div class="row">
-            <div class="col-md-3 footer-brand">
-                <a href="#" class="navbar-brand">
-                    <span class="cap">D</span>ream<span class="font-accent"><span class="cap">B</span>eauty</span><span class="cap">B</span>rands
-                    <small>Your Salon&nbsp;&nbsp;Your Clients&nbsp;&nbsp;Your Products</small>
-                </a>
+            <div class="col-md-4 footer-brand">
+                <div class="row">
+                    <a href="#" class="navbar-brand">
+                        <span class="cap">D</span>ream<span class="font-accent"><span class="cap">B</span>eauty</span><span class="cap">B</span>rands
+                        <small>Your Salon&nbsp;&nbsp;Your Clients&nbsp;&nbsp;Your Products</small>
+                    </a>
+                </div>
                 <p>It is your salon, they are your customers, why not use your product?</p>
-                <p>© 2016 Dream Beauty Brands, All rights reserved</p>
+                <p class="copyright">© 2016 Dream Beauty Brands, All rights reserved</p>
             </div>
             <div class="col-md-5 footer-nav">
                 <h4>Menu -</h4>
@@ -177,17 +179,16 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-md-4 footer-ns">
+            <div class="col-md-3 footer-ns">
                 <h4>Newsletter</h4>
                 <p>Sign up to get up to date news.</p>
-                <p>
                 <div class="input-group">
                     <input type="text" class="form-control" placeholder="Email Address">
                     <span class="input-group-btn">
                         <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-envelope" style="font-size: 18px;"></span></button>
                     </span>
                 </div>
-                </p>
+
             </div>
         </div>
     </div>
