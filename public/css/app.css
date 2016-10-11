@@ -1239,7 +1239,7 @@ mark,
 .text-right {
   text-align: right; }
 
-.text-center, nav.dbbnav ul.nav > li.dropdown.dbbnav-fw ul.dropdown-menu, nav.dbbnav ul.nav > li.dropdown.dbbnav-fw ul.dropdown-menu > li, div#section2 h1, div.sectionHeader h1 {
+.text-center, nav.dbbnav ul.nav > li.dropdown.dbbnav-fw ul.dropdown-menu, nav.dbbnav ul.nav > li.dropdown.dbbnav-fw ul.dropdown-menu > li, div#section1 h1, div.sectionHeader h1 {
   text-align: center; }
 
 .text-justify {
@@ -6107,18 +6107,21 @@ div.infoGraphic {
 div.container.test {
   background-color: #66ccff; }
 
-div#section2 {
+div#section1 {
   padding-bottom: 25px;
   background: #66ccff;
   background: -webkit-linear-gradient(top, #66ccff 1%, #ffffff 80%);
   background: linear-gradient(to bottom, #66ccff 1%, #ffffff 80%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66ccff', endColorstr='#ffffff',GradientType=0 ); }
-  div#section2 h1 {
-    margin: 10px;
+  div#section1 h1 {
+    margin-top: 0;
+    margin-bottom: 0;
     font-family: 'Open Sans Condensed', sans-serif;
     font-weight: 600;
     text-transform: uppercase;
     color: #fff; }
+  div#section1 div.infoGraphic {
+    margin-top: -40px; }
 
 div.sectionHeader {
   color: #666;
