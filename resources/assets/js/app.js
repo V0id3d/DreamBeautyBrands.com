@@ -15,6 +15,9 @@ require('./bootstrap');
 
 Vue.component('example', require('./components/Example.vue'));
 
+/**
+ * Convert img tags with class of svg into the svg counterpart
+ */
 $('img.svg').each(function(){
     var $img = $(this);
     var imgID = $img.attr('id');
@@ -36,4 +39,12 @@ $('img.svg').each(function(){
         $img.replaceWith($svg);
 
     }, 'xml');
+});
+
+$('.dropdown').on('show.bs.dropdown', function(e){
+    $(this).find('.dropdown-menu').first().stop(true, true).slideDown();
+});
+
+$('.dropdown').on('hide.bs.dropdown', function(e){
+    $(this).find('.dropdown-menu').first().stop(true, true).slideUp();
 });
