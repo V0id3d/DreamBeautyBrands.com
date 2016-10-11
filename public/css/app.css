@@ -5813,9 +5813,10 @@ body footer {
 footer {
   background-color: #333;
   color: #fff;
-  min-height: 250px; }
+  min-height: 250px;
+  font-family: 'Lato', sans-serif; }
   footer .footer-brand a.navbar-brand {
-    margin: 0 auto;
+    margin: 0;
     padding-top: 7px;
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 27px;

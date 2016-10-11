@@ -61,10 +61,11 @@ footer{
   background-color: $secondary-bg-color;
   color: $secondary-font-color;
   min-height: 250px;
+  font-family: 'Lato', sans-serif;
 
   .footer-brand {
     a.navbar-brand{
-      margin: 0 auto;
+      margin: 0;
       padding-top: 7px;
       font-family: 'Open Sans Condensed', sans-serif;
       font-size: 27px;
@@ -79,7 +80,7 @@ footer{
         color: $primary-accent-color;
       }
     }
-    
+
     p{
       font-size: 12px;
     }

@@ -149,13 +149,12 @@
     <div class="container">
         <div class="row">
             <div class="col-md-4 footer-brand">
-                <div class="row">
+                <div class="row logo">
                     <a href="#" class="navbar-brand">
                         <span class="cap">D</span>ream<span class="font-accent"><span class="cap">B</span>eauty</span><span class="cap">B</span>rands
                         <small>Your Salon&nbsp;&nbsp;Your Clients&nbsp;&nbsp;Your Products</small>
                     </a>
                 </div>
-                <p>It is your salon, they are your customers, why not use your product?</p>
                 <p class="copyright">© 2016 Dream Beauty Brands, All rights reserved</p>
             </div>
             <div class="col-md-5 footer-nav">
