@@ -5802,8 +5802,9 @@ body {
 body > div.content {
   min-height: calc(100vh - 250px); }
 
-body footer {
-  height: 50px; }
+@media (max-width: 992px) {
+  body > div.content {
+    min-height: 100vh; } }
 
 /*
 ------------------------------------------------------------------------------------------------------------------------
@@ -5861,6 +5862,9 @@ footer {
   footer .footer-nav,
   footer .footer-ns {
     border-color: transparent; }
+  @media (max-width: 992px) {
+    footer {
+      display: none; } }
 
 /*
 ------------------------------------------------------------------------------------------------------------------------

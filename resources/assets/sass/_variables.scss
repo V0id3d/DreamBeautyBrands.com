@@ -47,9 +47,13 @@ body {
   > div.content {
     min-height: calc(100vh - 250px);
   }
-  footer{
-    height: 50px;
+
+  @media (max-width: $screen-md) {
+    > div.content {
+      min-height: 100vh;
+    }
   }
+
 }
 
 /*
@@ -130,6 +134,10 @@ footer{
   .footer-nav,
   .footer-ns{
     border-color: transparent;
+  }
+
+  @media (max-width: $screen-md) {
+    display: none;
   }
 }
 
