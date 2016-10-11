@@ -3,11 +3,38 @@
 @section('PageContents')
     <div class="sectionHeader">
         <div class="container">
-            <h1>How It Works</h1>
+            <h1>Helping to make your dream project a reality</h1>
         </div>
     </div>
     <div id="section1">
         <div class="container">
+            <div class="row">
+                <section>
+                    <p>
+                        Be inspired. Be creative. Think of something new. Thing of something unique. Your ideas are the inspiration for you creations.
+                    </p>
+                    <p>
+                        Many companies offer Private Label services which don’t allow any room for customer import. These services are very restrictive, and all products end up looking the same. Mcilpack
+                        offers Custom Private Label services, where we allow our customers to provide input on the final specifications of the product. Our customers are able to select from different
+                        packaging types, different decoration options and different formulas, including customised formulas/ It’s OK to be creative. We encourage it.
+                    </p>
+
+                    <p>
+                        We manufacture products in four major categories; Hair Care, Skin Care, Hair Colour and spa. The possibilities are endless. The combinations are infinite. There is no brochure or
+                        catalog that can display all of the options. If you can imagine it, we can probably create it.
+                    </p>
+
+                    <p>
+                        However, just in case you need some inpiration, we have some product ides for you. Feel free to give the your unique touch and don’t be afraid to make changes. After all, they are
+                        your products!
+                    </p>
+                </section>
+            </div>
+        </div>
+    </div>
+    <div id="section2">
+        <div class="container">
+            <h1>How It Works</h1>
             <div class="row">
                 <section>
                     <div class="infoGraphic" id="howItWorks">
@@ -128,7 +155,7 @@
             <h1>Why Have Your Own Products?</h1>
         </div>
     </div>
-    <div id="section2">
+    <div id="section3">
         <div class="container">
             <div class="row">
                 <section>

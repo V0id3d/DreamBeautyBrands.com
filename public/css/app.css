@@ -1239,7 +1239,7 @@ mark,
 .text-right {
   text-align: right; }
 
-.text-center, nav.dbbnav ul.nav > li.dropdown.dbbnav-fw ul.dropdown-menu, nav.dbbnav ul.nav > li.dropdown.dbbnav-fw ul.dropdown-menu > li, div.sectionHeader h1 {
+.text-center, nav.dbbnav ul.nav > li.dropdown.dbbnav-fw ul.dropdown-menu, nav.dbbnav ul.nav > li.dropdown.dbbnav-fw ul.dropdown-menu > li, div#section2 h1, div.sectionHeader h1 {
   text-align: center; }
 
 .text-justify {
@@ -6081,7 +6081,7 @@ div.infoGraphic {
       margin: 0 auto;
       bottom: 0px;
       border: 10px solid transparent;
-      border-bottom-color: #66ccff; }
+      border-bottom-color: #666; }
     div.infoGraphic .nav-tabs > li.active > a,
     div.infoGraphic .nav-tabs > li.active > a:hover,
     div.infoGraphic .nav-tabs > li.active > a:focus {
@@ -6107,15 +6107,22 @@ div.infoGraphic {
 div.container.test {
   background-color: #66ccff; }
 
-div#section1 {
+div#section2 {
+  padding-bottom: 25px;
   background: #66ccff;
-  background: -webkit-linear-gradient(top, #66ccff 1%, #ffffff 100%);
-  background: linear-gradient(to bottom, #66ccff 1%, #ffffff 100%);
+  background: -webkit-linear-gradient(top, #66ccff 1%, #ffffff 80%);
+  background: linear-gradient(to bottom, #66ccff 1%, #ffffff 80%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66ccff', endColorstr='#ffffff',GradientType=0 ); }
+  div#section2 h1 {
+    margin: 10px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff; }
 
 div.sectionHeader {
-  background: #333;
-  color: #fff; }
+  color: #666;
+  border: solid 1px #66ccff; }
   div.sectionHeader h1 {
     margin: 10px;
     font-family: 'Open Sans Condensed', sans-serif;
