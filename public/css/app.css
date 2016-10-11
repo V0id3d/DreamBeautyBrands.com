@@ -1239,7 +1239,7 @@ mark,
 .text-right {
   text-align: right; }
 
-.text-center, nav.dbbnav ul.nav > li.dropdown.dbbnav-fw ul.dropdown-menu, nav.dbbnav ul.nav > li.dropdown.dbbnav-fw ul.dropdown-menu > li {
+.text-center, nav.dbbnav ul.nav > li.dropdown.dbbnav-fw ul.dropdown-menu, nav.dbbnav ul.nav > li.dropdown.dbbnav-fw ul.dropdown-menu > li, div.sectionHeader h1 {
   text-align: center; }
 
 .text-justify {
@@ -6106,5 +6106,23 @@ div.infoGraphic {
 
 div.container.test {
   background-color: #66ccff; }
+
+div#section1 {
+  background: #66ccff;
+  background: -webkit-linear-gradient(top, #66ccff 1%, #ffffff 100%);
+  background: linear-gradient(to bottom, #66ccff 1%, #ffffff 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66ccff', endColorstr='#ffffff',GradientType=0 ); }
+
+div.sectionHeader {
+  background: #333;
+  color: #fff; }
+  div.sectionHeader h1 {
+    margin: 10px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase; }
+
+section {
+  margin: 25px 0; }
 
 /*# sourceMappingURL=app.css.map */

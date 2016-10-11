@@ -484,3 +484,34 @@ div.container.test{
 }
 
 
+div#section1{
+  background: #66ccff;
+  background: -moz-linear-gradient(top,  #66ccff 1%, #ffffff 100%);
+  background: -webkit-linear-gradient(top,  #66ccff 1%,#ffffff 100%);
+  background: linear-gradient(to bottom,  #66ccff 1%,#ffffff 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66ccff', endColorstr='#ffffff',GradientType=0 );
+}
+
+//html{
+//  background: #ffffff;
+//  background: -moz-linear-gradient(top,  #ffffff 0%, #66ccff 98%);
+//  background: -webkit-linear-gradient(top,  #ffffff 0%,#66ccff 98%);
+//  background: linear-gradient(to bottom,  #ffffff 0%,#66ccff 98%);
+//  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#66ccff',GradientType=0 );
+//}
+
+div.sectionHeader {
+  background: $secondary-bg-color;
+  color: $secondary-font-color;
+  h1{
+    @extend .text-center;
+    margin: 10px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+}
+
+section {
+  margin: 25px 0;
+}
