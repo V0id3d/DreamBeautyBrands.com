@@ -53,7 +53,7 @@
                         </li>
                         <li>
                             <a href="#" class="">
-                                <img src="/img/Conditioner.svg" alt="Conditioner Image" class="svg">
+                                <img src="/img/Shampoo.svg" alt="Conditioner Image" class="svg">
                                 <span class="item-label">Conditioner</span>
                             </a>
                         </li>
