@@ -149,7 +149,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-4 footer-brand">
-                <div class="row logo">
+                <div class="row">
                     <a href="#" class="navbar-brand">
                         <span class="cap">D</span>ream<span class="font-accent"><span class="cap">B</span>eauty</span><span class="cap">B</span>rands
                         <small>Your Salon&nbsp;&nbsp;Your Clients&nbsp;&nbsp;Your Products</small>

@@ -45,7 +45,7 @@ body{
 
 body {
   > div.content {
-    min-height: calc(100vh - 250px);
+    min-height: calc(100vh - 350px);
   }
 
   @media (max-width: $screen-md) {
@@ -64,8 +64,10 @@ body {
 footer{
   background-color: $secondary-bg-color;
   color: $secondary-font-color;
-  min-height: 250px;
+  height: 275px;
   font-family: 'Lato', sans-serif;
+  padding-top: 15px;
+  padding-bottom: 10px;
 
   .footer-brand {
     a.navbar-brand{
@@ -128,13 +130,20 @@ footer{
   .footer-brand,
   .footer-nav,
   .footer-ns{
+    min-height: 100%;
     padding: 10px 25px;
   }
 
   .footer-nav,
   .footer-ns{
-    border-color: transparent;
+    border-left: solid 1px $primary-font-color;
   }
+
+  .container,
+  .container > .row {
+    height: 100%;
+  }
+
 
   @media (max-width: $screen-md) {
     display: none;

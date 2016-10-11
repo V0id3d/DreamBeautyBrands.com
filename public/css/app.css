@@ -5800,7 +5800,7 @@ body {
   height: 100%; }
 
 body > div.content {
-  min-height: calc(100vh - 250px); }
+  min-height: calc(100vh - 350px); }
 
 @media (max-width: 992px) {
   body > div.content {
@@ -5814,8 +5814,10 @@ body > div.content {
 footer {
   background-color: #333;
   color: #fff;
-  min-height: 250px;
-  font-family: 'Lato', sans-serif; }
+  height: 275px;
+  font-family: 'Lato', sans-serif;
+  padding-top: 15px;
+  padding-bottom: 10px; }
   footer .footer-brand a.navbar-brand {
     margin: 0;
     padding-top: 7px;
@@ -5858,10 +5860,14 @@ footer {
   footer .footer-brand,
   footer .footer-nav,
   footer .footer-ns {
+    min-height: 100%;
     padding: 10px 25px; }
   footer .footer-nav,
   footer .footer-ns {
-    border-color: transparent; }
+    border-left: solid 1px #666; }
+  footer .container,
+  footer .container > .row {
+    height: 100%; }
   @media (max-width: 992px) {
     footer {
       display: none; } }
