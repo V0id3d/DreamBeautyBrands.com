@@ -5800,7 +5800,7 @@ body {
   height: 100%; }
 
 body > div.content {
-  min-height: calc(100vh - 350px); }
+  min-height: calc(100vh - 275px); }
 
 @media (max-width: 992px) {
   body > div.content {
@@ -6103,15 +6103,18 @@ div.infoGraphic {
       right: 0;
       top: 50%;
       z-index: 1; }
+  div.infoGraphic .tab-content img,
+  div.infoGraphic .tab-content svg {
+    margin-top: 25px; }
 
 div.container.test {
   background-color: #66ccff; }
 
 div#section1 {
   padding-bottom: 25px;
-  background: #66ccff;
-  background: -webkit-linear-gradient(top, #66ccff 1%, #ffffff 80%);
-  background: linear-gradient(to bottom, #66ccff 1%, #ffffff 80%);
+  background: #d2f0ff;
+  background: -webkit-linear-gradient(top, #d2f0ff 1%, #ffffff 80%);
+  background: linear-gradient(to bottom, #d2f0ff 1%, #ffffff 80%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66ccff', endColorstr='#ffffff',GradientType=0 ); }
   div#section1 h1 {
     margin-top: 0;
@@ -6119,13 +6122,18 @@ div#section1 {
     font-family: 'Open Sans Condensed', sans-serif;
     font-weight: 600;
     text-transform: uppercase;
-    color: #fff; }
+    color: #666; }
+  div#section1 .section-text blockquote {
+    border-color: #66ccff; }
+  div#section1 .section-text p {
+    font-size: 16px; }
   div#section1 div.infoGraphic {
     margin-top: -40px; }
 
 div.sectionHeader {
   color: #666;
-  border: solid 1px #66ccff; }
+  border-top: solid 1px #66ccff;
+  border-bottom: solid 1px #66ccff; }
   div.sectionHeader h1 {
     margin: 10px;
     font-family: 'Open Sans Condensed', sans-serif;
