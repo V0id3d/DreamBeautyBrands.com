@@ -44,8 +44,93 @@ body{
 }
 
 body {
-  padding-top: 50px;
+  > div.content {
+    min-height: calc(100vh - 250px);
+  }
+  footer{
+    height: 50px;
+  }
 }
+
+/*
+------------------------------------------------------------------------------------------------------------------------
+                                                        Footer
+------------------------------------------------------------------------------------------------------------------------
+*/
+footer{
+  background-color: $secondary-bg-color;
+  color: $secondary-font-color;
+  min-height: 250px;
+
+  .footer-brand {
+    a.navbar-brand{
+      margin: 0 0 10px;
+      padding-top: 7px;
+      font-family: 'Open Sans Condensed', sans-serif;
+      font-size: 27px;
+      text-transform: uppercase;
+      color: $secondary-font-color;
+      span.cap {
+        font-size: 120%;
+      }
+      small{
+        display: block;
+        font-size: 14px;
+        color: $primary-accent-color;
+      }
+    }
+    p {
+      font-size: 12px;
+    }
+  }
+  .footer-nav {
+    h4{
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      margin-bottom: 10px;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      li{
+        padding: 5px 0;
+        a{
+          color: $secondary-font-color;
+          font-weight: bold;
+          text-transform: uppercase;
+          &:hover {
+            color: $primary-accent-color;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+  .footer-ns {
+    h4{
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      margin-bottom:10px;
+    }
+    p{
+      font-size: 12px;
+    }
+  }
+
+  .footer-brand,
+  .footer-nav,
+  .footer-ns{
+    padding: 10px 25px;
+  }
+
+  .footer-nav,
+  .footer-ns{
+    border-color: transparent;
+  }
+}
+
 
 
 /*
@@ -71,6 +156,8 @@ $panel-inner-border: $primary-border-color;
 $navbar-default-bg: $secondary-bg-color;
 $navbar-default-color: $secondary-font-color;
 nav.dbbnav {
+  border-radius: 0;
+  margin-bottom: 0;
   .nav, .collapse, .dropup, .dropdown {
     position: static;
   }
@@ -89,12 +176,13 @@ nav.dbbnav {
       span.cap {
         font-size: 120%;
       }
+      small{
+        display: block;
+        font-size: 14px;
+        color: $primary-accent-color;
+      }
     }
-    small{
-      display: block;
-      font-size: 14px;
-      color: $primary-accent-color;
-    }
+
   }
   ul.nav {
     font-family: 'Lato', sans-serif;

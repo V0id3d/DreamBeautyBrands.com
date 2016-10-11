@@ -5799,8 +5799,67 @@ html,
 body {
   height: 100%; }
 
-body {
-  padding-top: 50px; }
+body > div.content {
+  min-height: calc(100vh - 250px); }
+
+body footer {
+  height: 50px; }
+
+/*
+------------------------------------------------------------------------------------------------------------------------
+                                                        Footer
+------------------------------------------------------------------------------------------------------------------------
+*/
+footer {
+  background-color: #333;
+  color: #fff;
+  min-height: 250px; }
+  footer .footer-brand a.navbar-brand {
+    margin: 0 0 10px;
+    padding-top: 7px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 27px;
+    text-transform: uppercase;
+    color: #fff; }
+    footer .footer-brand a.navbar-brand span.cap {
+      font-size: 120%; }
+    footer .footer-brand a.navbar-brand small {
+      display: block;
+      font-size: 14px;
+      color: #66ccff; }
+  footer .footer-brand p {
+    font-size: 12px; }
+  footer .footer-nav h4 {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 10px; }
+  footer .footer-nav ul {
+    list-style: none;
+    padding: 0; }
+    footer .footer-nav ul li {
+      padding: 5px 0; }
+      footer .footer-nav ul li a {
+        color: #fff;
+        font-weight: bold;
+        text-transform: uppercase; }
+        footer .footer-nav ul li a:hover {
+          color: #66ccff;
+          text-decoration: none; }
+  footer .footer-ns h4 {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 10px; }
+  footer .footer-ns p {
+    font-size: 12px; }
+  footer .footer-brand,
+  footer .footer-nav,
+  footer .footer-ns {
+    padding: 10px 25px; }
+  footer .footer-nav,
+  footer .footer-ns {
+    border-color: transparent; }
 
 /*
 ------------------------------------------------------------------------------------------------------------------------
@@ -5813,6 +5872,8 @@ body {
 ------------------------------------------------------------------------------------------------------------------------
 */
 nav.dbbnav {
+  border-radius: 0;
+  margin-bottom: 0;
   background-color: #333; }
   nav.dbbnav .nav, nav.dbbnav .collapse, nav.dbbnav .dropup, nav.dbbnav .dropdown {
     position: static; }
@@ -5828,10 +5889,10 @@ nav.dbbnav {
       color: #fff; }
       nav.dbbnav .navbar-header a.navbar-brand span.cap {
         font-size: 120%; }
-    nav.dbbnav .navbar-header small {
-      display: block;
-      font-size: 14px;
-      color: #66ccff; }
+      nav.dbbnav .navbar-header a.navbar-brand small {
+        display: block;
+        font-size: 14px;
+        color: #66ccff; }
   nav.dbbnav ul.nav {
     font-family: 'Lato', sans-serif;
     font-weight: 600; }

@@ -21,7 +21,7 @@
 
 <body>
 {{--Navigation--}}
-<nav class="navbar navbar-inverse navbar-fixed-top dbbnav" role="navigation">
+<nav class="navbar navbar-inverse dbbnav" role="navigation">
     <div class="container">
         {{--Brand and toggle grouped for mobile display--}}
         <div class="navbar-header">
@@ -140,18 +140,60 @@
     </a>
 
 </header>
+<div class="content">
+    {{--Page Contents--}}
+    @yield('PageContents')
+</div>
 
-{{--Page Contents--}}
-@yield('PageContents')
-<div class="container">
-    <footer>
+<footer>
+    <div class="container">
         <div class="row">
-            <div class="col-lg-12">
-                <p>Copyright &copy; Your Website 2014</p>
+            <div class="col-md-3 footer-brand">
+                <a href="#" class="navbar-brand">
+                    <span class="cap">D</span>ream<span class="font-accent"><span class="cap">B</span>eauty</span><span class="cap">B</span>rands
+                    <small>Your Salon&nbsp;&nbsp;Your Clients&nbsp;&nbsp;Your Products</small>
+                </a>
+                <p>It is your salon, they are your customers, why not use your product?</p>
+                <p>© 2016 Dream Beauty Brands, All rights reserved</p>
+            </div>
+            <div class="col-md-5 footer-nav">
+                <h4>Menu -</h4>
+                <div class="col-md-6">
+                    <ul class="pages">
+                        <li><a href="#">Shampoo</a></li>
+                        <li><a href="#">Conditioner</a></li>
+                        <li><a href="#">Masks</a></li>
+                        <li><a href="#">Styling</a></li>
+                        <li><a href="#">Finishing</a></li>
+                        <li><a href="#">Tools</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <ul class="list">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4 footer-ns">
+                <h4>Newsletter</h4>
+                <p>Sign up to get up to date news.</p>
+                <p>
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Email Address">
+                    <span class="input-group-btn">
+                        <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-envelope" style="font-size: 18px;"></span></button>
+                    </span>
+                </div>
+                </p>
             </div>
         </div>
-    </footer>
-</div>
+    </div>
+</footer>
+
+
 <script src="/js/app.js"></script>
 <script>
     $('.carousel').carousel({
