@@ -6063,7 +6063,8 @@ div.infoGraphic {
             width: 75%; }
           div.infoGraphic .nav-tabs > li a span.round-tab svg path,
           div.infoGraphic .nav-tabs > li a span.round-tab svg circle,
-          div.infoGraphic .nav-tabs > li a span.round-tab svg polygon {
+          div.infoGraphic .nav-tabs > li a span.round-tab svg polygon,
+          div.infoGraphic .nav-tabs > li a span.round-tab ellipse {
             stroke: #666; }
     div.infoGraphic .nav-tabs > li:after {
       content: " ";

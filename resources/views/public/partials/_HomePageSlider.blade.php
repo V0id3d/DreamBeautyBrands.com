@@ -12,23 +12,23 @@
         {{--Active Slide--}}
         <div class="item active">
             <div class="fill" style="background-image: url('/img/your-salon.jpeg');"></div>
-            <div class="carousel-caption">
-                <h2>Your Salon</h2>
-            </div>
+            {{--<div class="carousel-caption">--}}
+                {{--<h2>Your Salon</h2>--}}
+            {{--</div>--}}
         </div>
         {{--Slide--}}
         <div class="item">
             <div class="fill" style="background-image: url('/img/your-clients.jpeg');"></div>
-            <div class="carousel-caption">
-                <h2>Your Clients</h2>
-            </div>
+            {{--<div class="carousel-caption">--}}
+                {{--<h2>Your Clients</h2>--}}
+            {{--</div>--}}
         </div>
         {{--Slide--}}
         <div class="item">
             <div class="fill" style="background-image: url('/img/your-products.jpeg');"></div>
-            <div class="carousel-caption">
-                <h2>Your Products</h2>
-            </div>
+            {{--<div class="carousel-caption">--}}
+                {{--<h2>Your Products</h2>--}}
+            {{--</div>--}}
         </div>
     </div>
 
