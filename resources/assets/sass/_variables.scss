@@ -44,6 +44,7 @@ body{
 }
 
 body {
+  font-family: 'Lato', sans-serif;
   > div.content {
     min-height: calc(100vh - 275px);
   }
@@ -535,4 +536,25 @@ section {
       text-transform: uppercase;
     }
   }
+  div.grouped-info{
+    @extend .text-center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    p{
+      margin: 0;
+    }
+    small {
+      margin: 0;
+    }
+  }
+}
+
+.font-heading {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 400;
+}
+
+.font-subheading {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
 }

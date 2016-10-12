@@ -18,4 +18,9 @@ class PublicSiteController extends Controller
     {
         return view('public.about');
     }
+
+    public function contact()
+    {
+        return view('public.contact');
+    }
 }

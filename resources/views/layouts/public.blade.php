@@ -84,7 +84,7 @@
                     </ul>
                 </li>
                 <li><a href="{{ route('Public.AboutUs') }}" class="{{ (Route::is('Public.AboutUs') ? 'active' : '') }}" >About Us</a></li>
-                <li><a href="#">Contact Us</a></li>
+                <li><a href="{{ route('Public.ContactUs') }}" class="{{ (Route::is('Public.ContactUs') ? 'active' : '') }}">Contact Us</a></li>
             </ul>
         </div>
     </div>
@@ -103,7 +103,7 @@
         <div class="row">
             <div class="col-md-4 footer-brand">
                 <div class="row">
-                    <a href="#" class="navbar-brand">
+                    <a href="{{ route('Public.Landing') }}" class="navbar-brand">
                         <span class="cap">D</span>ream<span class="font-accent"><span class="cap">B</span>eauty</span><span class="cap">B</span>rands
                         <small>Your Salon&nbsp;&nbsp;Your Clients&nbsp;&nbsp;Your Products</small>
                     </a>
@@ -124,8 +124,8 @@
                 </div>
                 <div class="col-md-6">
                     <ul class="list">
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="{{ route('Public.AboutUs') }}">About Us</a></li>
+                        <li><a href="{{ route('Public.ContactUs') }}">Contact Us</a></li>
                         <li><a href="#">Terms & Conditions</a></li>
                         <li><a href="#">Privacy Policy</a></li>
                     </ul>

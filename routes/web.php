@@ -20,3 +20,4 @@ Route::get('about', function () {
 
 Route::get('/', ['as' => 'Public.Landing', 'uses' => 'PublicSite\PublicSiteController@index']);
 Route::get('about', ['as' => 'Public.AboutUs', 'uses' => 'PublicSite\PublicSiteController@about']);
+Route::get('contact', ['as' => 'Public.ContactUs', 'uses' => 'PublicSite\PublicSiteController@contact']);
