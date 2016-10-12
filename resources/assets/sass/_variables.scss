@@ -536,4 +536,12 @@ div.sectionHeader {
 
 section {
   margin: 25px 0;
+  ul{
+    list-style: none;
+    li{
+      font-family: 'Lato', sans-serif;
+      padding-top: 10px;
+      font-size: 16px;
+    }
+  }
 }

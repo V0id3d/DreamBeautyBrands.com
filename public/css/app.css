@@ -6142,5 +6142,11 @@ div.sectionHeader {
 
 section {
   margin: 25px 0; }
+  section ul {
+    list-style: none; }
+    section ul li {
+      font-family: 'Lato', sans-serif;
+      padding-top: 10px;
+      font-size: 16px; }
 
 /*# sourceMappingURL=app.css.map */
