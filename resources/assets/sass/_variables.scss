@@ -418,7 +418,8 @@ div.infoGraphic{
           }
           svg path,
           svg circle,
-          svg polygon{
+          svg polygon,
+          ellipse{
             stroke: $primary-font-color;
           }
         }
