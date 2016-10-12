@@ -6131,14 +6131,17 @@ section {
       font-family: 'Lato', sans-serif;
       padding-top: 10px;
       font-size: 16px; }
+  section p {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px; }
   section .section-text blockquote {
     border-color: #66ccff; }
   section .section-text p {
     font-size: 16px; }
   section:first-of-type {
     background: #d2f0ff;
-    background: -webkit-linear-gradient(top, #d2f0ff 1%, #ffffff 80%);
-    background: linear-gradient(to bottom, #d2f0ff 1%, #ffffff 80%);
+    background: -webkit-linear-gradient(top, #d2f0ff 1%, #ffffff 100%);
+    background: linear-gradient(to bottom, #d2f0ff 1%, #ffffff 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66ccff', endColorstr='#ffffff',GradientType=0 ); }
   section div.infoGraphic {
     margin-top: -50px; }

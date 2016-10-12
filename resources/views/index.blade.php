@@ -8,6 +8,26 @@
     <section>
         <div class="section-header">
             <div class="container">
+                <h1>Dream Beauty Brands</h1>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <p>
+                    Like yourself, we work in the hair and beauty industry. We have worked with all the big names and
+                    we have seen a substantial amount of change in the way the industry works over recent years. There
+                    is little respect given to professional products any more and I’m sure you’ll agree, times are
+                    tougher now than they have ever been. We have to contend with online prices, no restrictions on
+                    professional only products and there now there is left business left for the hair salons.
+                    The product ranges have become so big and mass market, they are almost unaffordable to stock and
+                    the salon support just isn’t there anymore.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="section-header">
+            <div class="container">
                 <h1>Why Have Your Own Products?</h1>
             </div>
         </div>

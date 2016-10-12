@@ -504,6 +504,10 @@ section {
       font-size: 16px;
     }
   }
+  p{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+  }
   .section-text {
     blockquote {
       border-color: $primary-accent-color;
@@ -514,11 +518,18 @@ section {
   }
   &:first-of-type{
     background: #d2f0ff;
-    background: -moz-linear-gradient(top,  #d2f0ff 1%, #ffffff 80%);
-    background: -webkit-linear-gradient(top,  #d2f0ff 1%,#ffffff 80%);
-    background: linear-gradient(to bottom,  #d2f0ff 1%,#ffffff 80%);
+    background: -moz-linear-gradient(top,  #d2f0ff 1%, #ffffff 100%);
+    background: -webkit-linear-gradient(top,  #d2f0ff 1%,#ffffff 100%);
+    background: linear-gradient(to bottom,  #d2f0ff 1%,#ffffff 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66ccff', endColorstr='#ffffff',GradientType=0 );
   }
+  //&:last-of-type{
+  //  background: #d2f0ff;
+  //  background: -moz-linear-gradient(top,  #ffffff 1%, #d2f0ff 80%);
+  //  background: -webkit-linear-gradient(top,  #ffffff 1%,#d2f0ff 80%);
+  //  background: linear-gradient(to bottom,  #ffffff 1%,#d2f0ff 80%);
+  //  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66ccff', endColorstr='#ffffff',GradientType=0 );
+  //}
   div.infoGraphic {
     margin-top: -50px;
   }

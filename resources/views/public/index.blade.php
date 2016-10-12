@@ -8,13 +8,43 @@
     <section>
         <div class="section-header">
             <div class="container">
+                <h1>Your Private Labeling Solution</h1>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <p>
+                    There are millions of different packaging design options out there. However, in the hair industry
+                    brands are not to creative with the bottles - just their labelling and branding really
+                    differentiates them. You can be as involved as you like with the creation of your products.
+                    We have perfected formulations ready to go, which will be packaged under your brand/salon name
+                    and can be on your shelves in as little as two weeks. So it is super simple to get started. Then,
+                    once you get started and see the great response, you can look at creating your own fragrance for the
+                    products. If you are feeling super creative, meet with us and create your own formulations from
+                    scratch!
+                </p>
+                <p>
+                    Like yourself, we work in the hair and beauty industry. We have worked with all the big names and
+                    we have seen a substantial amount of change in the way the industry works over recent years. There
+                    is little respect given to professional products any more and I’m sure you’ll agree, times are
+                    tougher now than they have ever been. We have to contend with online prices, no restrictions on
+                    professional only products and there now there is left business left for the hair salons.
+                    The product ranges have become so big and mass market, they are almost unaffordable to stock and
+                    the salon support just isn’t there anymore.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="section-header">
+            <div class="container">
                 <h1>Why Have Your Own Products?</h1>
             </div>
         </div>
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-
+                    <img src="/img/ownbrand.jpeg" alt="Own Brands Image" class="img-responsive">
                 </div>
                 <div class="col-md-6">
                     <ul>
@@ -63,11 +93,10 @@
                 {{--Section Text--}}
                 <div class="col-md-5 section-text">
                     <p>
-                        You can be as involved as you like with the creation of your products. We have perfected
-                        formulations ready to go, which will be packaged under your brand/salon name and can be on your
-                        shelves in as little as two weeks. So it is super simple to get started. Then, once you get
-                        started and see the great response, you can look at creating your own fragrance for the products.
-                        If you are feeling super creative, meet with us and create your own formulations from scratch!
+                        We’ve picked two of the most popular bottle ranges to offer to you, if you would prefer
+                        something completely different, just ask. Classic & Classy - these have two different price points
+                        but you can do a lot with a decent label design. Nothing will look “off the shelf” - it will all
+                        be unique to you.
                     </p>
                     <blockquote>
                         Be inspired. Be creative. Think of something new. Think of something unique. Your ideas are the
