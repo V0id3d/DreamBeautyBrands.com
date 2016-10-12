@@ -31,7 +31,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a href="#" class="navbar-brand">
+            <a href="{{ route('Public.Landing') }}" class="navbar-brand">
                 <span class="cap">D</span>ream<span class="font-accent"><span class="cap">B</span>eauty</span><span class="cap">B</span>rands
                 <small>Your Salon&nbsp;&nbsp;Your Clients&nbsp;&nbsp;Your Products</small>
             </a>
@@ -40,7 +40,7 @@
         <div class="collapse navbar-collapse" id="dbb-navbar-collapse">
             {{--Top Level Menu--}}
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">Home</a></li>
+                <li><a href="{{ route('Public.Landing') }}" class="{{ (Route::is('Public.Landing') ? 'active' : '') }}">Home</a></li>
                 {{--Dropdown Menu (Products)--}}
                 <li class="dropdown dbbnav-fw">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Products <b class="caret"></b></a>
@@ -81,15 +81,9 @@
                                 <span class="item-label">Tools</span>
                             </a>
                         </li>
-                        {{--<li><a href="#">Shampoo</a></li>--}}
-                        {{--<li><a href="#">Conditioner</a></li>--}}
-                        {{--<li><a href="#">Masks</a></li>--}}
-                        {{--<li><a href="#">Styling</a></li>--}}
-                        {{--<li><a href="#">Finishing</a></li>--}}
-                        {{--<li><a href="#">Tools</a></li>--}}
                     </ul>
                 </li>
-                <li><a href="#">About Us</a></li>
+                <li><a href="{{ route('Public.AboutUs') }}" class="{{ (Route::is('Public.AboutUs') ? 'active' : '') }}" >About Us</a></li>
                 <li><a href="#">Contact Us</a></li>
             </ul>
         </div>

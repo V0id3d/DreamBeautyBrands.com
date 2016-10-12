@@ -208,11 +208,12 @@ nav.dbbnav {
     font-weight: 600;
     > li{
       > a{
-      color: $secondary-font-color !important;
-      &:hover {
-        color: $primary-accent-color !important;
+        color: $secondary-font-color;
+        &.active,
+        &:hover {
+          color: $primary-accent-color;
+        }
       }
-}
       &.dropdown{
         > ul.dropdown-menu{
           background-color: $primary-font-color;

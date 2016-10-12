@@ -12,5 +12,11 @@
 */
 
 Route::get('/', function () {
-    return view('index');
+    return view('public.index');
 });
+Route::get('about', function () {
+    return view('public.about');
+});
+
+Route::get('/', ['as' => 'Public.Landing', 'uses' => 'PublicSite\PublicSiteController@index']);
+Route::get('about', ['as' => 'Public.AboutUs', 'uses' => 'PublicSite\PublicSiteController@about']);
