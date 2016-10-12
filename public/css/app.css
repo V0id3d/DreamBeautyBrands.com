@@ -1239,7 +1239,7 @@ mark,
 .text-right {
   text-align: right; }
 
-.text-center, nav.dbbnav ul.nav > li.dropdown.dbbnav-fw ul.dropdown-menu, nav.dbbnav ul.nav > li.dropdown.dbbnav-fw ul.dropdown-menu > li, div#section1 h1, div.sectionHeader h1 {
+.text-center, nav.dbbnav ul.nav > li.dropdown.dbbnav-fw ul.dropdown-menu, nav.dbbnav ul.nav > li.dropdown.dbbnav-fw ul.dropdown-menu > li, section h1, section div.section-header h1 {
   text-align: center; }
 
 .text-justify {
@@ -5955,11 +5955,13 @@ nav.dbbnav {
       nav.dbbnav ul.nav > li.dropdown.dbbnav-fw.open > a {
         color: #66ccff;
         background-color: #666 !important; }
-      @media (max-width: 480px) {
+      @media (max-width: 768px) {
         nav.dbbnav ul.nav > li.dropdown.dbbnav-fw {
           position: relative; }
           nav.dbbnav ul.nav > li.dropdown.dbbnav-fw ul.dropdown-menu {
-            position: relative; } }
+            position: relative; }
+            nav.dbbnav ul.nav > li.dropdown.dbbnav-fw ul.dropdown-menu li {
+              display: block; } }
 
 /*
 ------------------------------------------------------------------------------------------------------------------------
@@ -6107,46 +6109,48 @@ div.infoGraphic {
   div.infoGraphic .tab-content svg {
     margin-top: 25px; }
 
-div.container.test {
-  background-color: #66ccff; }
-
-div#section1 {
-  padding-bottom: 25px;
-  background: #d2f0ff;
-  background: -webkit-linear-gradient(top, #d2f0ff 1%, #ffffff 80%);
-  background: linear-gradient(to bottom, #d2f0ff 1%, #ffffff 80%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66ccff', endColorstr='#ffffff',GradientType=0 ); }
-  div#section1 h1 {
+/*
+------------------------------------------------------------------------------------------------------------------------
+                                                      Layout
+------------------------------------------------------------------------------------------------------------------------
+*/
+section {
+  margin: 0;
+  padding-bottom: 25px; }
+  section h1 {
     margin-top: 0;
     margin-bottom: 0;
     font-family: 'Open Sans Condensed', sans-serif;
     font-weight: 600;
     text-transform: uppercase;
     color: #666; }
-  div#section1 .section-text blockquote {
-    border-color: #66ccff; }
-  div#section1 .section-text p {
-    font-size: 16px; }
-  div#section1 div.infoGraphic {
-    margin-top: -40px; }
-
-div.sectionHeader {
-  color: #666;
-  border-top: solid 1px #66ccff;
-  border-bottom: solid 1px #66ccff; }
-  div.sectionHeader h1 {
-    margin: 10px;
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-weight: 600;
-    text-transform: uppercase; }
-
-section {
-  margin: 25px 0; }
   section ul {
     list-style: none; }
     section ul li {
       font-family: 'Lato', sans-serif;
       padding-top: 10px;
       font-size: 16px; }
+  section .section-text blockquote {
+    border-color: #66ccff; }
+  section .section-text p {
+    font-size: 16px; }
+  section:first-of-type {
+    background: #d2f0ff;
+    background: -webkit-linear-gradient(top, #d2f0ff 1%, #ffffff 80%);
+    background: linear-gradient(to bottom, #d2f0ff 1%, #ffffff 80%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66ccff', endColorstr='#ffffff',GradientType=0 ); }
+  section div.infoGraphic {
+    margin-top: -50px; }
+  section div.section-header {
+    color: #666;
+    border-top: solid 1px #66ccff;
+    border-bottom: solid 1px #66ccff;
+    margin-bottom: 25px;
+    background-color: #fff; }
+    section div.section-header h1 {
+      margin: 10px;
+      font-family: 'Open Sans Condensed', sans-serif;
+      font-weight: 600;
+      text-transform: uppercase; }
 
 /*# sourceMappingURL=app.css.map */

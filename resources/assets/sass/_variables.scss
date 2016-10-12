@@ -278,10 +278,13 @@ nav.dbbnav {
           color: $primary-accent-color;
           background-color: $primary-font-color !important;
         }
-        @media (max-width: $screen-phone) {
+        @media (max-width: $screen-sm) {
           position: relative;
           ul.dropdown-menu{
             position: relative;
+            li{
+              display: block;
+            }
           }
         }
 
@@ -473,31 +476,15 @@ div.infoGraphic{
       margin-top: 25px;
     }
   }
-  //> .tab-content {
-  //  > .tab-pane{
-  //    > img,
-  //    > svg {
-  //      > path {
-  //        stroke: $primary-font-color;
-  //      }
-  //    }
-  //  }
-  //}
 }
-
-div.container.test{
-  background-color: $primary-accent-color;
-}
-
-
-div#section1{
-
+/*
+------------------------------------------------------------------------------------------------------------------------
+                                                      Layout
+------------------------------------------------------------------------------------------------------------------------
+*/
+section {
+  margin: 0;
   padding-bottom: 25px;
-  background: #d2f0ff;
-  background: -moz-linear-gradient(top,  #d2f0ff 1%, #ffffff 80%);
-  background: -webkit-linear-gradient(top,  #d2f0ff 1%,#ffffff 80%);
-  background: linear-gradient(to bottom,  #d2f0ff 1%,#ffffff 80%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66ccff', endColorstr='#ffffff',GradientType=0 );
   h1{
     margin-top: 0;
     margin-bottom: 0;
@@ -507,41 +494,44 @@ div#section1{
     text-transform: uppercase;
     color: $primary-font-color;
   }
-  .section-text{
-    blockquote{
-      border-color: $primary-accent-color;
-    }
-    p{
-      font-size: 16px;
-    }
-  }
-
-  div.infoGraphic {
-    margin-top: -40px;
-  }
-}
-
-div.sectionHeader {
-  color: $primary-font-color;
-  border-top: solid 1px $primary-accent-color;
-  border-bottom: solid 1px $primary-accent-color;
-  h1{
-    @extend .text-center;
-    margin: 10px;
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-weight: 600;
-    text-transform: uppercase;
-  }
-}
-
-section {
-  margin: 25px 0;
   ul{
     list-style: none;
     li{
       font-family: 'Lato', sans-serif;
       padding-top: 10px;
       font-size: 16px;
+    }
+  }
+  .section-text {
+    blockquote {
+      border-color: $primary-accent-color;
+    }
+    p {
+      font-size: 16px;
+    }
+  }
+  &:first-of-type{
+    background: #d2f0ff;
+    background: -moz-linear-gradient(top,  #d2f0ff 1%, #ffffff 80%);
+    background: -webkit-linear-gradient(top,  #d2f0ff 1%,#ffffff 80%);
+    background: linear-gradient(to bottom,  #d2f0ff 1%,#ffffff 80%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66ccff', endColorstr='#ffffff',GradientType=0 );
+  }
+  div.infoGraphic {
+    margin-top: -50px;
+  }
+  div.section-header {
+    color: $primary-font-color;
+    border-top: solid 1px $primary-accent-color;
+    border-bottom: solid 1px $primary-accent-color;
+    margin-bottom: 25px;
+    background-color: $primary-bg-color;
+    h1{
+      @extend .text-center;
+      margin: 10px;
+      font-family: 'Open Sans Condensed', sans-serif;
+      font-weight: 600;
+      text-transform: uppercase;
     }
   }
 }
