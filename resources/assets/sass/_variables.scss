@@ -622,7 +622,7 @@ section {
     color: $primary-font-color;
     cursor: default;
     font-family: 'Myriad Pro', Arial, sans-serif;
-    border: 1px solid $primary-font-color;
+    border: 1px solid $primary-accent-color;
     background: rgba(255,255,255,0.4);
     border-radius: 10px;
     -webkit-transition: border-color 0.3s, background 0.3s;
@@ -643,7 +643,7 @@ section {
       position: absolute;
       width: 20%;
       height: 1px;
-      background: $primary-font-color;
+      background: $primary-accent-color;
       left: 40%;
       bottom: 0;
     }
@@ -682,13 +682,6 @@ section {
   }
   .pricing__feature {
     line-height: 1.4;
-    &:before{
-      content: "\e87a";
-      font-family: 'linearicons';
-      display: inline-block;
-      vertical-align: middle;
-      padding: 0 0.75em 0 0;
-    }
   }
   .pricing__action {
     font-weight: bold;
