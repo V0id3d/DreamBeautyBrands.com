@@ -31,7 +31,7 @@ class ProductController extends Controller
 
     public function finishing()
     {
-        return view('public.products.styling');
+        return view('public.products.finishing');
     }
 
     public function tools()
