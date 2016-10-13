@@ -42,41 +42,41 @@
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="{{ route('Public.Landing') }}" class="{{ (Route::is('Public.Landing') ? 'active' : '') }}">Home</a></li>
                 {{--Dropdown Menu (Products)--}}
-                <li class="dropdown dbbnav-fw">
+                <li class="dropdown dbbnav-fw {{ (Request::is('product/**') ? 'active' : '') }}">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Products <b class="caret"></b></a>
                     <ul class="dropdown-menu">
                         <li>
-                            <a href="#" class="">
+                            <a href="{{ route('Product.Shampoo') }}" class="{{ (Route::is('Product.Shampoo') ? 'active' : '') }}">
                                 <img src="/img/Shampoo.svg" alt="Shampoo Image" class="svg">
                                 <span class="item-label">Shampoo</span>
                             </a>
                         </li>
                         <li>
-                            <a href="#" class="">
+                            <a href="{{ route('Product.Conditioner') }}" class="{{ (Route::is('Product.Conditioner') ? 'active' : '') }}">
                                 <img src="/img/Shampoo.svg" alt="Conditioner Image" class="svg">
                                 <span class="item-label">Conditioner</span>
                             </a>
                         </li>
                         <li>
-                            <a href="#" class="">
+                            <a href="{{ route('Product.Masks') }}" class="{{ (Route::is('Product.Masks') ? 'active' : '') }}">
                                 <img src="/img/Masks.svg" alt="Shampoo Image" class="svg">
                                 <span class="item-label">Masks</span>
                             </a>
                         </li>
                         <li>
-                            <a href="#" class="">
+                            <a href="{{ route('Product.Styling') }}" class="{{ (Route::is('Product.Styling') ? 'active' : '') }}">
                                 <img src="/img/Styling.svg" alt="Shampoo Image" class="svg">
                                 <span class="item-label">Styling</span>
                             </a>
                         </li>
                         <li>
-                            <a href="#" class="">
+                            <a href="{{ route('Product.Finishing') }}" class="{{ (Route::is('Product.Finishing') ? 'active' : '') }}">
                                 <img src="/img/Finish.svg" alt="Shampoo Image" class="svg">
                                 <span class="item-label">Finishing</span>
                             </a>
                         </li>
                         <li>
-                            <a href="#" class="">
+                            <a href="{{ route('Product.Tools') }}" class="{{ (Route::is('Product.Tools') ? 'active' : '') }}">
                                 <img src="/img/Tools.svg" alt="Shampoo Image" class="svg">
                                 <span class="item-label">Tools</span>
                             </a>
@@ -114,12 +114,12 @@
                 <h4>Menu -</h4>
                 <div class="col-md-6">
                     <ul class="pages">
-                        <li><a href="#">Shampoo</a></li>
-                        <li><a href="#">Conditioner</a></li>
-                        <li><a href="#">Masks</a></li>
-                        <li><a href="#">Styling</a></li>
-                        <li><a href="#">Finishing</a></li>
-                        <li><a href="#">Tools</a></li>
+                        <li><a href="{{ route('Product.Shampoo') }}">Shampoo</a></li>
+                        <li><a href="{{ route('Product.Conditioner') }}">Conditioner</a></li>
+                        <li><a href="{{ route('Product.Masks') }}">Masks</a></li>
+                        <li><a href="{{ route('Product.Styling') }}">Styling</a></li>
+                        <li><a href="{{ route('Product.Finishing') }}">Finishing</a></li>
+                        <li><a href="{{ route('Product.Tools') }}">Tools</a></li>
                     </ul>
                 </div>
                 <div class="col-md-6">

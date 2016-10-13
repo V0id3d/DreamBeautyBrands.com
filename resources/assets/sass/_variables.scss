@@ -219,7 +219,7 @@ nav.dbbnav {
         > ul.dropdown-menu{
           background-color: $primary-font-color;
           > li {
-            > a{
+            a{
               color: $secondary-font-color;
               &.active,
               &:active,
@@ -259,6 +259,7 @@ nav.dbbnav {
                   stroke-width: .7;
                 }
               }
+              &.active,
               &:hover {
                 color: $primary-accent-color;
                 background-color: inherit;
@@ -272,13 +273,13 @@ nav.dbbnav {
 
         }
         &:active,
-        &.active,
+        &.active > a,
         &.open > a:focus,
         &.open > a:hover,
         &.open > a:active,
         &.open > a{
-          color: $primary-accent-color;
-          background-color: $primary-font-color !important;
+          color: $primary-accent-color !important;
+          background-color: transparent !important;
         }
         @media (max-width: $screen-sm) {
           position: relative;

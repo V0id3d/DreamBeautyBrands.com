@@ -11,13 +11,14 @@
 |
 */
 
-Route::get('/', function () {
-    return view('public.index');
-});
-Route::get('about', function () {
-    return view('public.about');
-});
-
 Route::get('/', ['as' => 'Public.Landing', 'uses' => 'PublicSite\PublicSiteController@index']);
 Route::get('about', ['as' => 'Public.AboutUs', 'uses' => 'PublicSite\PublicSiteController@about']);
 Route::get('contact', ['as' => 'Public.ContactUs', 'uses' => 'PublicSite\PublicSiteController@contact']);
+Route::group(['prefix' => 'product'], function(){
+    Route::get('shampoo', ['as' => 'Product.Shampoo', 'uses' => 'PublicSite\ProductController@shampoo']);
+    Route::get('conditioner', ['as' => 'Product.Conditioner', 'uses' => 'PublicSite\ProductController@conditioner']);
+    Route::get('masks', ['as' => 'Product.Masks', 'uses' => 'PublicSite\ProductController@masks']);
+    Route::get('styling', ['as' => 'Product.Styling', 'uses' => 'PublicSite\ProductController@styling']);
+    Route::get('finishing', ['as' => 'Product.Finishing', 'uses' => 'PublicSite\ProductController@finishing']);
+    Route::get('tools', ['as' => 'Product.Tools', 'uses' => 'PublicSite\ProductController@tools']);
+});

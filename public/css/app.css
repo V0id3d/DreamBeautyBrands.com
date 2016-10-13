@@ -5914,9 +5914,9 @@ nav.dbbnav {
         color: #66ccff; }
     nav.dbbnav ul.nav > li.dropdown > ul.dropdown-menu {
       background-color: #666; }
-      nav.dbbnav ul.nav > li.dropdown > ul.dropdown-menu > li > a {
+      nav.dbbnav ul.nav > li.dropdown > ul.dropdown-menu > li a {
         color: #fff; }
-        nav.dbbnav ul.nav > li.dropdown > ul.dropdown-menu > li > a.active, nav.dbbnav ul.nav > li.dropdown > ul.dropdown-menu > li > a:active, nav.dbbnav ul.nav > li.dropdown > ul.dropdown-menu > li > a:hover {
+        nav.dbbnav ul.nav > li.dropdown > ul.dropdown-menu > li a.active, nav.dbbnav ul.nav > li.dropdown > ul.dropdown-menu > li a:active, nav.dbbnav ul.nav > li.dropdown > ul.dropdown-menu > li a:hover {
           color: #66ccff;
           background-color: inherit; }
     nav.dbbnav ul.nav > li.dropdown.dbbnav-fw {
@@ -5943,19 +5943,20 @@ nav.dbbnav {
                 stroke: #fff;
                 fill: none;
                 stroke-width: .7; }
-            nav.dbbnav ul.nav > li.dropdown.dbbnav-fw ul.dropdown-menu > li a:hover {
+            nav.dbbnav ul.nav > li.dropdown.dbbnav-fw ul.dropdown-menu > li a.active, nav.dbbnav ul.nav > li.dropdown.dbbnav-fw ul.dropdown-menu > li a:hover {
               color: #66ccff;
               background-color: inherit; }
-              nav.dbbnav ul.nav > li.dropdown.dbbnav-fw ul.dropdown-menu > li a:hover svg path {
+              nav.dbbnav ul.nav > li.dropdown.dbbnav-fw ul.dropdown-menu > li a.active svg path, nav.dbbnav ul.nav > li.dropdown.dbbnav-fw ul.dropdown-menu > li a:hover svg path {
                 stroke: #e6f7ff;
                 fill: #66ccff; }
-      nav.dbbnav ul.nav > li.dropdown.dbbnav-fw:active, nav.dbbnav ul.nav > li.dropdown.dbbnav-fw.active,
+      nav.dbbnav ul.nav > li.dropdown.dbbnav-fw:active,
+      nav.dbbnav ul.nav > li.dropdown.dbbnav-fw.active > a,
       nav.dbbnav ul.nav > li.dropdown.dbbnav-fw.open > a:focus,
       nav.dbbnav ul.nav > li.dropdown.dbbnav-fw.open > a:hover,
       nav.dbbnav ul.nav > li.dropdown.dbbnav-fw.open > a:active,
       nav.dbbnav ul.nav > li.dropdown.dbbnav-fw.open > a {
-        color: #66ccff;
-        background-color: #666 !important; }
+        color: #66ccff !important;
+        background-color: transparent !important; }
       @media (max-width: 768px) {
         nav.dbbnav ul.nav > li.dropdown.dbbnav-fw {
           position: relative; }
