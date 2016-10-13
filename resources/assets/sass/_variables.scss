@@ -286,7 +286,8 @@ nav.dbbnav {
           ul.dropdown-menu{
             position: relative;
             li{
-              display: block;
+              width: 30%;
+              display: inline-block;
             }
           }
         }
