@@ -56,38 +56,6 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    {{--<div class="pricing pricing--table">--}}
-                        {{--<div class="pricing__item">--}}
-                            {{--<h3 class="pricing__title">Classic</h3>--}}
-                            {{--<div class="pricing__price">Call For Details</div>--}}
-                            {{--<p class="pricing__sentence">Basic</p>--}}
-                            {{--<ul class="pricing__feature-list">--}}
-                                {{--<li class="pricing__feature">Basic Templates</li>--}}
-                                {{--<li class="pricing__feature">Basic Colors</li>--}}
-                                {{--<li class="pricing__feature">Basic Bottles</li>--}}
-                            {{--</ul>--}}
-                        {{--</div>--}}
-                        {{--<div class="pricing__item">--}}
-                            {{--<h3 class="pricing__title">Classy</h3>--}}
-                            {{--<div class="pricing__price">Call For Details</div>--}}
-                            {{--<p class="pricing__sentence">Premium</p>--}}
-                            {{--<ul class="pricing__feature-list">--}}
-                                {{--<li class="pricing__feature">Classic Options</li>--}}
-                                {{--<li class="pricing__feature">Premium Templates</li>--}}
-                                {{--<li class="pricing__feature">Premium Colors</li>--}}
-                                {{--<li class="pricing__feature">Premium Bottles</li>--}}
-                            {{--</ul>--}}
-                        {{--</div>--}}
-                        {{--<div class="pricing__item">--}}
-                            {{--<h3 class="pricing__title">Concierge</h3>--}}
-                            {{--<div class="pricing__price">Call For Details</div>--}}
-                            {{--<p class="pricing__sentence">Full Service</p>--}}
-                            {{--<ul class="pricing__feature-list">--}}
-                                {{--<li class="pricing__feature">Classic / Classy Options</li>--}}
-                                {{--<li class="pricing__feature">Full Service Design</li>--}}
-                            {{--</ul>--}}
-                        {{--</div>--}}
-                    {{--</div>--}}
                     <div class="pricing pricing--table">
                         <div class="pricing__item">
                             <h3 class="pricing__title">Classic</h3>
