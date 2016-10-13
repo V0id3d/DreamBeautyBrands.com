@@ -5,7 +5,7 @@
 @endsection
 
 @section('PageContents')
-    <section>
+    <section class="gradient-down">
         <div class="section-header">
             <div class="container">
                 <h1>Your Private Label Solution</h1>
