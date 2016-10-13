@@ -1,7 +1,7 @@
 @extends('layouts.public')
 
 @section('PageContents')
-    <section>
+    <section class="parallax" style="background-image: url('/img/your-salon.jpeg')">
         <div class="section-header">
             <div class="container">
                 <h1>Contact Us</h1>

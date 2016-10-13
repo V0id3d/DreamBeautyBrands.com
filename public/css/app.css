@@ -6027,6 +6027,18 @@ header.carousel {
   header.carousel {
     height: 70%; } }
 
+header#top-banner {
+  height: 50%; }
+  header#top-banner .item,
+  header#top-banner .top-banner-inner {
+    height: 100%; }
+  header#top-banner .fill {
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+
 /*
 ------------------------------------------------------------------------------------------------------------------------
                                                       InfoGraphic
@@ -6165,6 +6177,11 @@ section {
       margin: 0; }
     section div.grouped-info small {
       margin: 0; }
+  section.parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
 
 .font-heading {
   font-family: 'Open Sans Condensed', sans-serif;

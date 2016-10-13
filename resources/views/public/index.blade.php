@@ -84,7 +84,7 @@
             </div>
         </div>
     </section>
-    <section>
+    <section class="parallax" style="background-image: url('/img/parallax-1.jpeg')">
         <div class="section-header">
             <div class="container">
                 <h1>Helping to make your dream project a reality</h1>

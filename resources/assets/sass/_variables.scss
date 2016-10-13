@@ -381,6 +381,22 @@ header.carousel {
   }
 }
 
+header#top-banner{
+  height: 50%;
+  .item,
+  .top-banner-inner{
+    height: 100%;
+  }
+  .fill {
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+}
+
 /*
 ------------------------------------------------------------------------------------------------------------------------
                                                       InfoGraphic
@@ -560,6 +576,12 @@ section {
       margin: 0;
     }
   }
+  &.parallax{
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }
 
 .font-heading {
@@ -571,3 +593,4 @@ section {
   font-family: 'Lato', sans-serif;
   font-weight: 400;
 }
+
