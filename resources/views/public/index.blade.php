@@ -49,37 +49,35 @@
                     <img src="/img/ownbrand.jpeg" alt="Own Brands Image" class="img-responsive">
                 </div>
                 <div class="col-md-6">
-                    <ul>
-                        <li>
-                            Why not? You’re already supplying products through your salon. Your own branded products are
-                            likely to increase sales and increase revenue. Why promote other peoples brands, when you
-                            can promote your own?
-                        </li>
-                        <li>
-                            You have a name that your clients trust. Everyone trusts their hairdresser, with a client in
-                            your chair they are excited to be introduced and educated on your products, the products
-                            your using on their hair.
-                        </li>
-                        <li>
-                            You will gain a higher client retention. If your client knows you have the best product for
-                            their hair, they simply will have to come back to you to buy it!
-                        </li>
-                        <li>
-                            No internet competition! Its hard when you are trying to sell products to your clients who
-                            trust you, when you know they are able to purchase them online cheaper. This is a breach of
-                            your trust, and since most of us treat clients like friends, is a hard thing to do resulting
-                            in less salon sales.
-                        </li>
-                        <li>
-                            Endless sale or promotional opportunities. You’re in control, you know your clients and the
-                            way your salon works the best so create your offers directly for your customers.
-                        </li>
-                        <li>
-                            No restrictions on re-sale. This is your brand name and you can sell your products wherever
-                            and however you like. If you chose to promote your products online through a webstore or
-                            just on social media, this is entirely your choice.
-                        </li>
-                    </ul>
+                    <p>
+                        <strong>Why not?</strong> You’re already supplying products through your salon. Your own branded products are
+                        likely to increase sales and increase revenue. Why promote other peoples brands, when you
+                        can promote your own?
+                    </p>
+                    <p>
+                        <strong>You have a name that your clients trust.</strong> Everyone trusts their hairdresser, with a client in
+                        your chair they are excited to be introduced and educated on your products, the products
+                        your using on their hair.
+                    </p>
+                    <p>
+                        <strong>You will gain a higher client retention.</strong> If your client knows you have the best product for
+                        their hair, they simply will have to come back to you to buy it!
+                    </p>
+                    <p>
+                        <strong>No internet competition!</strong> Its hard when you are trying to sell products to your clients who
+                        trust you, when you know they are able to purchase them online cheaper. This is a breach of
+                        your trust, and since most of us treat clients like friends, is a hard thing to do resulting
+                        in less salon sales.
+                    </p>
+                    <p>
+                        <strong>Endless sale or promotional opportunities.</strong> You’re in control, you know your clients and the
+                        way your salon works the best so create your offers directly for your customers.
+                    </p>
+                    <p>
+                        <strong>No restrictions on re-sale.</strong> This is your brand name and you can sell your products wherever
+                        and however you like. If you chose to promote your products online through a webstore or
+                        just on social media, this is entirely your choice.
+                    </p>
                 </div>
             </div>
         </div>
