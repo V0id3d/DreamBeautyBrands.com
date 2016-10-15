@@ -137,7 +137,7 @@
                 <div class="input-group">
                     <input type="text" class="form-control" placeholder="Email Address">
                     <span class="input-group-btn">
-                        <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-envelope" style="font-size: 18px;"></span></button>
+                        <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-envelope"></span></button>
                     </span>
                 </div>
 
