@@ -589,7 +589,11 @@ section {
 }
 
 
-
+/*
+------------------------------------------------------------------------------------------------------------------------
+                                               Component: Price List
+------------------------------------------------------------------------------------------------------------------------
+*/
 .pricing {
   display: flex;
   flex-wrap: wrap;
@@ -708,4 +712,26 @@ section {
 
 }
 
-
+/*
+------------------------------------------------------------------------------------------------------------------------
+                                                      Forms
+------------------------------------------------------------------------------------------------------------------------
+*/
+form.form-horizontal {
+  button.btn-primary{
+    background-color: $primary-accent-color;
+    border-color: $primary-accent-color;
+    &:hover {
+      background-color: darken($primary-accent-color, 10%);
+    }
+  }
+  button.btn-danger{
+    color: $primary-accent-color;
+    border-color: $primary-accent-color;
+    background-color: transparent;
+    &:hover {
+      border-color: darken($primary-accent-color, 10%);
+      color: darken($primary-accent-color, 10%);
+    }
+  }
+}

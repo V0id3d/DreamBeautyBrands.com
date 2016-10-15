@@ -93,7 +93,7 @@
         <div class="container">
             <div class="row">
                 {{--Section Text--}}
-                <div class="col-md-5 section-text">
+                <div class="col-md-5 section-text" style="margin-top: 60px;">
                     <p>
                         We’ve picked two of the most popular bottle ranges to offer to you, if you would prefer
                         something completely different, just ask. Classic & Classy - these have two different price points
@@ -101,7 +101,7 @@
                         be unique to you.
                     </p>
                     <blockquote>
-                        Be inspired. Be creative. Think of something new. Think of something unique. Your ideas are the
+                        <strong>Be inspired. Be creative.</strong> Think of something new. Think of something unique. Your ideas are the
                         inspiration for you creations.
                     </blockquote>
                 </div>

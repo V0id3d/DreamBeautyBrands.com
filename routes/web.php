@@ -14,6 +14,7 @@
 Route::get('/', ['as' => 'Public.Landing', 'uses' => 'PublicSite\PublicSiteController@index']);
 Route::get('about', ['as' => 'Public.AboutUs', 'uses' => 'PublicSite\PublicSiteController@about']);
 Route::get('contact', ['as' => 'Public.ContactUs', 'uses' => 'PublicSite\PublicSiteController@contact']);
+Route::post('contact', ['as' => 'Public.SendMessage', 'uses' => 'PublicSite\PublicSiteController@sendMail']);
 Route::group(['prefix' => 'product'], function(){
     Route::get('shampoo', ['as' => 'Product.Shampoo', 'uses' => 'PublicSite\ProductController@shampoo']);
     Route::get('conditioner', ['as' => 'Product.Conditioner', 'uses' => 'PublicSite\ProductController@conditioner']);

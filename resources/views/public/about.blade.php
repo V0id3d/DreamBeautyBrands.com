@@ -1,7 +1,11 @@
 @extends('layouts.public')
 
 @section('PageHeader')
-    @include('public.partials._HomePageSlider')
+    <header id="top-banner">
+        <div class="top-banner-inner">
+            <div class="fill" style="background-image: url('/img/aboutus.jpeg');"></div>
+        </div>
+    </header>
 @endsection
 
 @section('PageContents')
@@ -46,36 +50,35 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <ul>
-                        <li>
-                            Amazing formulations. We spend timeless hours in the lab working with some of the best chemists in
-                            the industry to create unrivalled formulations that do not have any budget restraints, true cutting
-                            edge formulas, family produced products created the old fashioned way.
-                        </li>
-                        <li>
-                            Ethics. We create all our own products in guidance with professionals from all around the world. We
-                            do not copy other peoples formulations. We source all our products carefully and locally to ensure
-                            they comply with all the regulatory guidelines. We ensure ever ingredient used, even the raw
-                            ingredients are not tested on animals and from suppliers that share our environmental ethics.
-                        </li>
-                        <li>
-                            Honesty. We will always tell you the truth. What ingredients are used and why we have used them.
-                            We want you to have the confidence to recommend a product, not from a sales pitch, but from trust.
-                        </li>
-                        <li>
-                            Finest Ingredients. We want to get results, not fit into a price bracket. We do not compromise on the
-                            quality of our ingredients, nor do we use cheap substitutes for different raw ingredients.
-                        </li>
-                        <li>
-                            Healthy Hair. Every product we make has been created with the underlying goal of creating healthy
-                            hair. This is easier when you’re thinking shampoo, conditioner etc, but even our styling products with
-                            hold have conditioning properties added!
-                        </li>
-                        <li>
-                            Organic. We believe in using organic ingredients wherever possible, we use many USDS certified
-                            organic ingredients. These are the highest standard of certification for organic.
-                        </li>
-                    </ul>
+                    <p>
+                        <strong>Amazing formulations.</strong> We spend timeless hours in the lab working with some of the best chemists in
+                        the industry to create unrivalled formulations that do not have any budget restraints, true cutting
+                        edge formulas, family produced products created the old fashioned way.
+                    </p>
+
+                    <p>
+                        <strong>Ethics.</strong> We create all our own products in guidance with professionals from all around the world. We
+                        do not copy other peoples formulations. We source all our products carefully and locally to ensure
+                        they comply with all the regulatory guidelines. We ensure ever ingredient used, even the raw
+                        ingredients are not tested on animals and from suppliers that share our environmental ethics.
+                    </p>
+                    <p>
+                        <strong>Honesty.</strong> We will always tell you the truth. What ingredients are used and why we have used them.
+                        We want you to have the confidence to recommend a product, not from a sales pitch, but from trust.
+                    </p>
+                    <p>
+                        <strong>Finest Ingredients.</strong> We want to get results, not fit into a price bracket. We do not compromise on the
+                        quality of our ingredients, nor do we use cheap substitutes for different raw ingredients.
+                    </p>
+                    <p>
+                        <strong>Healthy Hair.</strong> Every product we make has been created with the underlying goal of creating healthy
+                        hair. This is easier when you’re thinking shampoo, conditioner etc, but even our styling products with
+                        hold have conditioning properties added!
+                    </p>
+                    <p>
+                        <strong>Organic.</strong> We believe in using organic ingredients wherever possible, we use many USDS certified
+                        organic ingredients. These are the highest standard of certification for organic.
+                    </p>
                 </div>
             </div>
         </div>

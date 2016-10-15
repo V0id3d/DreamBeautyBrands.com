@@ -6194,6 +6194,11 @@ section {
   font-family: 'Lato', sans-serif;
   font-weight: 400; }
 
+/*
+------------------------------------------------------------------------------------------------------------------------
+                                               Component: Price List
+------------------------------------------------------------------------------------------------------------------------
+*/
 .pricing {
   display: -webkit-box;
   display: flex;
@@ -6294,5 +6299,24 @@ section {
     transition: background 0.3s; }
     .pricing--table .pricing__item .pricing__action:hover, .pricing--table .pricing__item .pricing__action:focus {
       background: #666; }
+
+/*
+------------------------------------------------------------------------------------------------------------------------
+                                                      Forms
+------------------------------------------------------------------------------------------------------------------------
+*/
+form.form-horizontal button.btn-primary {
+  background-color: #66ccff;
+  border-color: #66ccff; }
+  form.form-horizontal button.btn-primary:hover {
+    background-color: #33bbff; }
+
+form.form-horizontal button.btn-danger {
+  color: #66ccff;
+  border-color: #66ccff;
+  background-color: transparent; }
+  form.form-horizontal button.btn-danger:hover {
+    border-color: #33bbff;
+    color: #33bbff; }
 
 /*# sourceMappingURL=app.css.map */

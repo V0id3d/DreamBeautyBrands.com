@@ -23,4 +23,16 @@ class PublicSiteController extends Controller
     {
         return view('public.contact');
     }
+
+    public function sendMail(Request $request)
+    {
+        $this->validateWithBag('sendMail', $request, [
+            'name'      => 'required',
+            'email'     => 'required',
+            'phone'     => 'required',
+            'message'   => 'required'
+        ]);
+
+        return redirect()->back();
+    }
 }
