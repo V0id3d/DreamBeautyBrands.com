@@ -14,7 +14,7 @@
     <section class="gradient-down">
         <div class="section-header">
             <div class="container">
-                <h1>Conditioning Hair Spray</h1>
+                <h1>Styling Products</h1>
             </div>
         </div>
         <div class="container">
