@@ -281,7 +281,7 @@ nav.dbbnav {
           color: $primary-accent-color !important;
           background-color: transparent !important;
         }
-        @media (max-width: $screen-sm) {
+        @media (max-width: 760px) {
           position: relative;
           ul.dropdown-menu{
             position: relative;

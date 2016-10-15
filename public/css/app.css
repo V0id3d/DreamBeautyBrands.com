@@ -5958,7 +5958,7 @@ nav.dbbnav {
       nav.dbbnav ul.nav > li.dropdown.dbbnav-fw.open > a {
         color: #66ccff !important;
         background-color: transparent !important; }
-      @media (max-width: 768px) {
+      @media (max-width: 760px) {
         nav.dbbnav ul.nav > li.dropdown.dbbnav-fw {
           position: relative; }
           nav.dbbnav ul.nav > li.dropdown.dbbnav-fw ul.dropdown-menu {
