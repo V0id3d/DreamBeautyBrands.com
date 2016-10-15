@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="Many companies offer Private Label services, we believe we are the best. Why? Because we work for you, as part of your team. Our interest is in getting you the best products, products that are based on what you want. We want to make it as simple as possible for you to achieve your own branded products and we have many ways to guide and help you. From a simple set-up with a stock formulation, to creating unique formulas for you, to contract manufacturing, we want to work with you." />
     <meta name="author" content="QZion" />
+    <meta name="google-site-verification" content="lAFLTg2avBCsCWu2P6u8a4Y5254kRQ5ElHU2_tT0kho" />
 
     <title>Dream Beauty Brands @yield('PageTitle')</title>
 
