@@ -51,6 +51,46 @@
             </div>
         </div>
     </section>
+    <section class="parallax" style="background-image: url('/img/parallax-1.jpeg')">
+        <div class="section-header">
+            <div class="container">
+                <h1>Is your brand ready to take to the next level? We’re here to make your dream a reality!</h1>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p>
+                        Many companies offer Private Label services, we believe we are the best. Why? Because we work for you,
+                        as part of your team. Our interest is in getting you the best products, products that are based on what
+                        you want. We want to make it as simple as possible for you to achieve your own branded products and we
+                        have many ways to guide and help you. From a simple set-up with a stock formulation, to creating unique
+                        formulas for you, to contract manufacturing, we want to work with you.
+                    </p>
+                    <p>
+                        Be inspired and be creative with your requirements for your new range. We love a challenge and we
+                        especially love working on something new and unique. The possibilities are endless. The combinations
+                        are infinite. There is no catalogue that can display the all the possible options we can produce. Simply
+                        if you can imagine it, we can probably create it - well we will give it our best shot at perfection!
+                    </p>
+                    <p>
+                        Like yourself, we work in the hair and beauty industry. We have worked with all the big names and
+                        we have seen a substantial amount of change in the way the industry works over recent years. There
+                        is little respect given to professional products anymore and I’m sure you’ll agree, times are tougher
+                        now than they have ever been. We have to contend with online prices, no restrictions on professional
+                        only products and now there is little business left for the hair salons. The product ranges have
+                        become so big and mass market that they are almost unaffordable to stock and the salon support just
+                        isn’t there anymore.
+                    </p>
+                    <p>
+
+                        If you have an existing formulation, we can evaluate it and help improve the quality and / or lower
+                        the cost. We can manufacture and package the product according to your specifications.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
     <section>
         <div class="section-header">
             <div class="container">
