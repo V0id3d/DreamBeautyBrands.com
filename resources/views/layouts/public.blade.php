@@ -16,7 +16,6 @@
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-    @include('layouts.partials.google')
 </head>
 
 <body>
@@ -148,6 +147,7 @@
 
 
 <script src="/js/app.js"></script>
+@include('layouts.partials.google')
 <script>
     $('.carousel').carousel({
         interval: 5000
