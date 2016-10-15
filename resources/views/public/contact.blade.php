@@ -3,7 +3,7 @@
 @section('PageTitle') - Contact Us @endsection
 
 @section('PageContents')
-    <section class="parallax" style="background-image: url('/img/your-salon.jpeg')">
+    <section class="parallax" style="background-image: url('/img/parallax-2.jpeg')">
         <div class="section-header">
             <div class="container">
                 <h1>Contact Us</h1>
