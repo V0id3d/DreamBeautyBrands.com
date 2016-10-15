@@ -1,5 +1,7 @@
 @extends('layouts.public')
 
+@section('PageTitle') - Your Private Label Solution @endsection
+
 @section('PageHeader')
     @include('public.partials._HomePageSlider')
 @endsection

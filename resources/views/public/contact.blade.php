@@ -1,5 +1,7 @@
 @extends('layouts.public')
 
+@section('PageTitle') - Contact Us @endsection
+
 @section('PageContents')
     <section class="parallax" style="background-image: url('/img/your-salon.jpeg')">
         <div class="section-header">

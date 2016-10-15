@@ -1,5 +1,7 @@
 @extends('layouts.public')
 
+@section('PageTitle') - About Us @endsection
+
 @section('PageHeader')
     <header id="top-banner">
         <div class="top-banner-inner">

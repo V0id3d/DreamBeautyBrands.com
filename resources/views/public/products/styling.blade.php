@@ -1,5 +1,7 @@
 @extends('layouts.public')
 
+@section('PageTitle') - Hair Styling @endsection
+
 @section('PageHeader')
     <header id="top-banner">
         <div class="top-banner-inner">

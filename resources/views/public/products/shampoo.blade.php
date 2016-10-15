@@ -1,5 +1,7 @@
 @extends('layouts.public')
 
+@section('PageTitle') - Shampoos @endsection
+
 @section('PageHeader')
     <header id="top-banner">
         <div class="top-banner-inner">
