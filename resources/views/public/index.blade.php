@@ -18,7 +18,7 @@
                 <div class="col-md-12">
                     <p>
                         Ever wanted to have your own products at your own salon to offer to your clients? At Dream Beauty
-                        Brands we can turn this Dream into a reality with just a few clicks of the mouse. You can now have
+                        Brands we can turn this dream into a reality with just a few clicks of the mouse. You can now have
                         your very own products presented on your shelves easier than ever before. Whether you want to use
                         one of our many templates or prefer to design your products from scratch, Dream Beauty Brands has
                         the solutions to get your products out there for your public to see.
