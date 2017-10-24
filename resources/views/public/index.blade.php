@@ -17,38 +17,53 @@
             <div class="row">
                 <div class="col-md-12">
                     <p>
-                        Ever wanted to have your own products at your own salon to offer to your clients? At Dream Beauty
-                        Brands we can turn this dream into a reality with just a few clicks of the mouse. You can now have
-                        your very own products presented on your shelves easier than ever before. Whether you want to use
-                        one of our many templates or prefer to design your products from scratch, Dream Beauty Brands has
-                        the solutions to get your products out there for your public to see.
+                        Ever wanted to have your own products at your own salon to offer to your clients? 
+                    </p>    
+                    <p>
+                       At Dream Beauty Brands we can turn this dream into a reality with just a few clicks of the mouse. 
+                       You can now have your very own products presented on your shelves and its so easy! Whether
+                       you want to use one of our many templates or prefer to design your products from scratch, Dream Beauty 
+                       Brands has the solutions to get your products out there for your customers to see.
                     </p>
                     <p>
-                        There are millions of different packaging design options out there. However, in the hair industry
-                        brands are not too creative with the bottles - just their labelling and branding really
-                        differentiates them. You can be as involved as you like with the creation of your products. We have
-                        perfected formulations ready to go, which will be packaged under your brand/salon name and can be
-                        on your shelves in as little as two weeks. We have made the process super simple to get started.
-                        Once you get start and see the great response, you can look at creating your own fragrance for the
-                        products. If you are feeling super creative, meet with us and create your own formulations from
-                        beginning to end!
+                       There are millions of different packaging design options out there. However, in the hair industry, we 
+                       find that brands are not terribly creative with the bottles. The only visual difference between products 
+                       is their labelling and branding.
                     </p>
                     <p>
-                        Like yourself, we work in the hair and beauty industry. We have worked with all the big names and
-                        we have seen a substantial amount of change in the way the industry works over recent years. There
-                        is little respect given to professional products anymore and I’m sure you’ll agree, times are tougher
-                        now than they have ever been. We have to contend with online prices, no restrictions on professional
-                        only products and now there is little business left for the hair salons. The product ranges have
-                        become so big and mass market that they are almost unaffordable to stock and the salon support just
-                        isn’t there anymore.
+                       You can change this. You can differentiate yourself from the competition and increase your own brand recognition.
                     </p>
                     <p>
-                        Dream Beauty Brands is dedicated to bring back power to the salons. By offering your own brand you
-                        can cut out some of the big name brands who offer professional products that still end up selling
-                        in retail chains.  With our private label solutions salon owners will have opportunity to connect
-                        further with clients while simultaneously building a brand that will assist in growing overall
-                        business. Sounds good? We think so, let us help you turn your private label dreams into reality.
+                       You can be as involved as you like with the creation of your products. We have perfected formulations ready to go, 
+                       which will be packaged under your brand/salon name and can be on your shelves in as little as two weeks. We have 
+                       made the process super simple to get started.
                     </p>
+                    <p>
+                        Once you get started and see the great response, you can look at creating your own fragrance for the products. If 
+                        you are feeling super creative, meet with us and create your own formulations from beginning to end!
+                    </p>
+                    <p>
+                        Like yourself, we work in the hair and beauty industry. We have worked with all the big names and we have seen a 
+                        substantial amount of change in the way the industry functions over recent years. There is little respect given 
+                        to professional products anymore and I’m sure you’ll agree, times are tougher now than they have ever been. We 
+                        have to contend with online prices, no restrictions on professional-only products and now there is little business 
+                        left for the hair salons. The product ranges have become so big and mass market that they are almost unaffordable 
+                        to stock and the salon support just isn’t there anymore.
+                    </p>
+                    <p>
+                        <strong>Dream Beauty Brands is dedicated to bringing back power to the salons.</strong> By offering your own brand 
+                        you can cut out some of the big name brands who offer professional products that still end up selling in retail chains, 
+                        which undercuts your price and your credibility. 
+                    </p>
+                    <p>
+                        With our private label solutions, salon owners will have the opportunity to connect further with clients while simultaneously 
+                        building a brand that will assist in growing overall business. 
+                    </p>
+                    <p>
+                        Sounds good? We think so; let us help you turn your private label dreams into reality.
+                    </p>
+                    
+               
                 </div>
             </div>
         </div>
@@ -62,6 +77,17 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
+                    <p>
+                        Many companies offer Private Label services; we believe we are the best. Why? Because we work for you, 
+                        as part of your team. Our interest is in getting you the best products, products that are based on what 
+                        you want. We want to make it as simple as possible for you to achieve your own branded products and we 
+                        have many ways to guide and help you. From a simple set-up with our pre-selected formulation, to creating 
+                        unique formulas for you, to contract manufacturing, we want to work with you.
+                    </p>
+                    <p>
+                        If you have an existing formulation, we can evaluate it and help improve the quality and/or lower the cost.
+                        We can manufacture and package the product according to your specifications.
+                    </p>
                     <p>
                         Many companies offer Private Label services, we believe we are the best. Why? Because we work for you,
                         as part of your team. Our interest is in getting you the best products, products that are based on what
@@ -85,9 +111,24 @@
                         isn’t there anymore.
                     </p>
                     <p>
-
                         If you have an existing formulation, we can evaluate it and help improve the quality and / or lower
                         the cost. We can manufacture and package the product according to your specifications.
+                    </p>
+                    <p>
+                       Be inspired and be creative with your requirements for your new range. We love a challenge and we 
+                       especially love working on something new and unique. The possibilities are endless. The combinations 
+                       are infinite. There is no catalogue that can display all the possible options we can produce.  If 
+                       you can imagine it, we can probably create it - well we will give it our best shot at perfection!
+                    </p>
+                    <p>
+                      Like yourself, we work in the hair and beauty industry. We have worked with all the big names and we 
+                      have seen a substantial amount of change in the way the industry works over recent years.
+                    </p>
+                    <p>
+                        There is little respect given to professional products anymore and I’m sure you’ll agree, times are 
+                        tougher now than they have ever been. We have to contend with online prices, no restrictions on professional 
+                        only products and now there is little business left for the hair salons. The product ranges have become 
+                        so big and mass marketed that they are almost unaffordable to stock and the salon support just isn’t there anymore.
                     </p>
                 </div>
             </div>
