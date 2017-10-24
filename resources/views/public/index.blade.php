@@ -272,7 +272,7 @@
                                     <h3>Place Order</h3>
                                     <p>
                                         Simple and easy. Just give us a shout with whatever you need and we’ll process the
-                                        order for you. Keep in mind you will need to order a minimum of 24 of each product that you need.
+                                        order for you. Keep in mind you will need to order a minimum of 12 of each product that you need.
                                     </p>
                                 </div>
                             </div>
