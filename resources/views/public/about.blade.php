@@ -21,24 +21,41 @@
             <div class="row">
                 <div class="col-md-12">
                     <p>
-                        Like yourself, we work in the hair and beauty industry. We have worked with all
-                        the big names and we have seen a substantial amount of change in the way the
-                        industry works, over recent years. There is little respect given to professional
-                        products any more and I’m sure you’ll agree, times are tougher now than they
-                        have ever been. We have to contend with online prices, products with no
-                        restrictions on professional only sale and there is little left for hair salons. The
-                        product ranges have become so big they are almost unaffordable to stock and
-                        the salon support just isn’t there as much now. Fortunately I had the opportunity
-                        to meet Juan, he owns a laboratory in the USA and he has to be one of the most
-                        knowledgeable and helpful people I’ve ever met. He introduced me to the
-                        chemistry of hair care and the ethics that they put in their high quality
-                        formulations. True professional products, made without any compromise on
-                        ingredients and formulated to create true professional results. Together, with Juan
-                        we came up with the concept of offering these products directly to salons, under
-                        their own salon brand. Products the stylists can trust and confidently recommend
-                        to their clients. The same ability to create formulas that the big brands have, but
-                        now available to every professional.
+                        Like yourself, we work in the hair and beauty industry. We have worked with all the big 
+                        names and we have seen a substantial amount of change in the way the industry works, 
+                        particularly recently. 
                     </p>
+                    <p>
+                        There is little respect given to professional products anymore; in fact, we think times are
+                        tougher now than they have ever been. 
+                    </p>
+                    <p>
+                        We have to contend with online prices, products with no restrictions on professional-only 
+                        sale (despite promises by distributors). All of these cut into product sales, which have 
+                        always been and need to continue to be a significant revenue source.
+                    </p>
+                    <p>
+                        The product ranges have become so big they are almost unaffordable to stock and the salon
+                        support just isn’t there as much now. 
+                    </p>
+                    <p>
+                        And then there’s Juan….
+                    </p>
+                    <p>
+                        Fortunately we had the opportunity to meet Juan, who owns a laboratory in the USA, one of 
+                        the most knowledgeable and helpful people we have ever encountered. He truly is an industry 
+                        expert in the chemistry of hair care. More importantly, he shares our values: that products 
+                        be made with ethics and with the highest quality formulations.
+                    </p>
+                    <p>
+                        Together we have created professional products, made without any compromise on ingredients 
+                        and formulated to create absolutely professional results. Together with Juan, we created the 
+                        concept of offering these products directly to salons, under each salon’s  own brand. These 
+                        will be products the stylists can trust and confidently recommend to their clients. You, as a 
+                        small business owner now possess  same ability to create formulas that the big brands have, 
+                        with better product and more control in every way.
+                    </p>
+                   
                 </div>
             </div>
         </div>
@@ -53,33 +70,41 @@
             <div class="row">
                 <div class="col-md-12">
                     <p>
-                        <strong>Amazing formulations.</strong> We spend timeless hours in the lab working with some of the best chemists in
-                        the industry to create unrivalled formulations that do not have any budget restraints, true cutting
-                        edge formulas, family produced products created the old fashioned way.
+                        <strong>Amazing formulations.</strong> We spend timeless hours in the lab working with some of the 
+                        best chemists in the industry to create unrivaled formulations that do not have any budget 
+                        restraints. We take immense pride in our true cutting-edge formulas, comprised of family produced 
+                        products, created the old fashioned way.
+
                     </p>
 
                     <p>
-                        <strong>Ethics.</strong> We create all our own products in guidance with professionals from all around the world. We
-                        do not copy other peoples formulations. We source all our products carefully and locally to ensure
-                        they comply with all the regulatory guidelines. We ensure ever ingredient used, even the raw
-                        ingredients are not tested on animals and from suppliers that share our environmental ethics.
+                        <strong>Ethics.</strong> We create all our own products in guidance with professionals from all 
+                        around the world. We do not copy other people’s formulations. We source all our products carefully 
+                        and locally to ensure they comply with all the regulatory guidelines. We ensure every ingredient 
+                        used, even the raw ingredients, are not tested on animals and come from from suppliers that share 
+                        our environmental ethics.
+
                     </p>
                     <p>
-                        <strong>Honesty.</strong> We will always tell you the truth. What ingredients are used and why we have used them.
-                        We want you to have the confidence to recommend a product, not from a sales pitch, but from trust.
+                        <strong>Honesty.</strong> We will always tell you the truth. You will know what ingredients are 
+                        used and why we have used them. We want you to have the confidence to recommend a product, not 
+                        from a sales pitch, but from trust.
+
                     </p>
                     <p>
-                        <strong>Finest Ingredients.</strong> We want to get results, not fit into a price bracket. We do not compromise on the
-                        quality of our ingredients, nor do we use cheap substitutes for different raw ingredients.
+                        <strong>Finest Ingredients.</strong> We want to get results, not fit into a price bracket. We do
+                        not compromise on the quality of our ingredients, nor do we use cheap substitutes for different 
+                        raw ingredients.
                     </p>
                     <p>
-                        <strong>Healthy Hair.</strong> Every product we make has been created with the underlying goal of creating healthy
-                        hair. This is easier when you’re thinking shampoo, conditioner etc, but even our styling products with
-                        hold have conditioning properties added!
+                        <strong>Healthy Hair.</strong> Every product we make has been created with the underlying goal of 
+                        creating healthy hair. This is easier when you’re thinking shampoo, conditioner etc, but even our
+                        styling products with hold have conditioning properties added!
+
                     </p>
                     <p>
-                        <strong>Organic.</strong> We believe in using organic ingredients wherever possible, we use many USDS certified
-                        organic ingredients. These are the highest standard of certification for organic.
+                        <strong>Organic.</strong> We believe in using organic ingredients wherever possible, so we use 
+                        many USDS certified organic ingredients. These are the highest standard of certification for organic.
                     </p>
                 </div>
             </div>
