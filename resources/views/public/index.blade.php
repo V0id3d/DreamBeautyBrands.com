@@ -271,8 +271,8 @@
                                 <div class="col-xs-9">
                                     <h3>Place Order</h3>
                                     <p>
-                                        Simple and easy. Just give us a shout with whatever you need and we’ll process the
-                                        order for you. Keep in mind you will need to order a minimum of 12 of each product that you need.
+                                        Simple and easy. Just give us a shout with whatever you need and we’ll process the order for you. Keep in mind 
+                                        you will need to order a minimum of 12 of each product that you need.    
                                     </p>
                                 </div>
                             </div>
@@ -283,9 +283,9 @@
                                 <div class="col-xs-9">
                                     <h3>Production</h3>
                                     <p>
-                                        Your products go to production, and the dream of your own brand is realised!
-                                        This is the most exciting stage for us and we will keep you in the loop at ever stage from making the
-                                        formulation, to filling to packaging for shipment.
+                                        Your products go to production, and the dream of your own brand is realised! This is the most exciting stage for
+                                        us and we will keep you in the loop at ever stage from making the formulation, to preparing the packaging for 
+                                        shipment.
                                     </p>
                                 </div>
                             </div>
@@ -296,8 +296,8 @@
                                 <div class="col-xs-9">
                                     <h3>Product Is Shipped</h3>
                                     <p>
-                                        Products are shipped directly to your salon. If space is tight, we can hold stock on your behalf and ship in at
-                                        agreed times.
+                                        Products are shipped directly to your salon. If space is tight, we can hold stock on your behalf and ship 
+                                        in an agreed times.
                                     </p>
                                 </div>
                             </div>
@@ -308,8 +308,8 @@
                                 <div class="col-xs-9">
                                     <h3>Place Your Product On Your Shelf</h3>
                                     <p>
-                                        Nothing beats the feeling of receiving your first delivery of your products. Get the salon ready and get creative with
-                                        your displays! Remember, the customer has to see your products in order to buy them.
+                                        Nothing beats the feeling of receiving your first delivery of your products. Get the salon ready and get creative 
+                                        with your displays! Remember, the customer has to see your products in order to buy them.
                                     </p>
                                 </div>
                             </div>
