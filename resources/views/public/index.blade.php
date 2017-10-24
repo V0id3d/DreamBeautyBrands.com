@@ -147,33 +147,30 @@
                 </div>
                 <div class="col-md-6">
                     <p>
-                        <strong>Why not?</strong> You’re already supplying products through your salon. Your own branded products are
-                        likely to increase sales and increase revenue. Why promote other peoples brands, when you
-                        can promote your own?
+                        <strong>Why not?</strong> You’re already supplying products through your salon. Your own branded products are 
+                        likely to increase sales and increase revenue. Why promote other people’s brands, when you can promote your own?
                     </p>
                     <p>
-                        <strong>You have a name that your clients trust.</strong> Everyone trusts their hairdresser, with a client in
-                        your chair they are excited to be introduced and educated on your products, the products
-                        your using on their hair.
+                        <strong>You have a name that your clients trust.</strong> Everyone trusts their hairdresser, and this strong connection 
+                        to their stylist will foster a receptivity to the salon’s products.
                     </p>
                     <p>
-                        <strong>You will gain a higher client retention.</strong> If your client knows you have the best product for
-                        their hair, they simply will have to come back to you to buy it!
+                        <strong>You will gain a higher client retention.</strong> If your client knows you have the best product for their hair, 
+                        they simply will have to come back to you to buy it!
                     </p>
                     <p>
-                        <strong>No internet competition!</strong> Its hard when you are trying to sell products to your clients who
-                        trust you, when you know they are able to purchase them online cheaper. This is a breach of
-                        your trust, and since most of us treat clients like friends, is a hard thing to do resulting
-                        in less salon sales.
+                        <strong>No internet competition!</strong> Its hard when you are trying to sell products to your clients who trust you, 
+                        only to discover that the products that you sold them are now available online, after telling them that they were exclusively 
+                        for sale in salons. This is a breach of your trust, and since most of us treat clients like friends, is a hard thing to do and 
+                        can result in less salon sales.
                     </p>
                     <p>
-                        <strong>Endless sale or promotional opportunities.</strong> You’re in control, you know your clients and the
-                        way your salon works the best so create your offers directly for your customers.
+                        <strong>Endless sale or promotional opportunities.</strong> You’re in control, you know your clients and the way your salon 
+                        works the best , so you can create your offers directly for your customers.
                     </p>
                     <p>
-                        <strong>No restrictions on re-sale.</strong> This is your brand name and you can sell your products wherever
-                        and however you like. If you chose to promote your products online through a webstore or
-                        just on social media, this is entirely your choice.
+                        <strong>No restrictions on resale.</strong> This is your brand name and you can sell your products wherever and however you like. 
+                        If you chose to promote your products online or just on social media, this is entirely your choice.
                     </p>
                 </div>
             </div>
@@ -190,14 +187,14 @@
                 {{--Section Text--}}
                 <div class="col-md-5 section-text" style="margin-top: 60px;">
                     <p>
-                        We’ve picked two of the most popular bottle ranges to offer to you, if you would prefer
-                        something completely different, just ask. Classic & Classy - these have two different price points
-                        but you can do a lot with a decent label design. Nothing will look “off the shelf” - it will all
-                        be unique to you.
+                        We’ve picked two of the most popular bottle ranges to offer to you. If you would prefer something completely 
+                        different, just ask. Classic & Classy - these have two different price points. You can strategically differentiate 
+                        these with you own label design.
                     </p>
                     <blockquote>
-                        <strong>Be inspired. Be creative.</strong> Think of something new. Think of something unique. Your ideas are the
-                        inspiration for you creations.
+                        <strong>Be inspired. Be creative.</strong> Think of something new. Think of something unique. Your ideas are the 
+                        inspiration for you creations. You know what motivates you and will be enticing to your clients. Go for it!
+
                     </blockquote>
                 </div>
                 {{--Info Graphic--}}
@@ -256,12 +253,14 @@
                                     <img src="/img/design.svg" alt="Step 1: Design" class="svg">
                                 </div>
                                 <div class="col-xs-9">
-                                    <h3>Design Label</h3>
+                                    <h3>Chose from two options</h3>
                                     <p>
-                                        There are two options here, you can ask us to completely design the logo, following
-                                        your branding and just provide you with the finished product. Or, you can have the logo designed
-                                        yourself and just provide us with the finished artwork for print. This is part of the initial set-up only and
-                                        we will keep the artwork safe for your repeat orders.
+                                        Our design team can completely design the packaging utilizing your logo and your input 
+                                        regarding your brand identity. We will present you with the finished project.
+                                    </p>
+                                    <p>
+                                        Or, you can have the logo designed yourself and just provide us with the finished artwork for 
+                                        print. This is part of the initial set-up only and we will keep the artwork safe for your repeat orders.
                                     </p>
                                 </div>
                             </div>
