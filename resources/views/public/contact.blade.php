@@ -14,7 +14,7 @@
                 <div class="col-md-6">
                     <h1>Customer Service</h1>
                     <div class="grouped-info">
-                        <p>Office: +44 203 393 9993</p>
+                        <p>Office: +1 561 413 3574</p>
                         <small>Monday-Friday 9am-6pm</small>
                     </div>
 
