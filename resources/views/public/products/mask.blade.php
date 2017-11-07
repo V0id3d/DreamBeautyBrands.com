@@ -19,8 +19,8 @@
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
-                    <h2>Silk Protein Treatment</h2>
+                <div class="col-md-6">
+                    <h2>Restore Masque</h2>
                     <p>
                         This treatment has small silk amino acid molecules which penetrate the hair cuticle to
                         provide an enhanced conditioning effect. Because of its hygroscopic properties, this
@@ -29,21 +29,13 @@
                         improve hair colour retention. Sunflower extract provides a natural sunscreen.
                     </p>
                 </div>
-                <div class="col-md-4">
-                    <h2>Deep Nourishing</h2>
+                <div class="col-md-6">
+                    <h2>Hydrating Masque</h2>
                     <p>
                         This deeply nourishing mask combines the moisturising properties of Aloe with the healing
                         provided by Bamboo. The result is a treatment that can rescue just about any hair type. The
                         botanical extracts and amino acids act deep within the hair shaft to treat the hair from the
                         inside out.
-                    </p>
-                </div>
-                <div class="col-md-4">
-                    <h2>Keratin Conditioning</h2>
-                    <p>
-                        This treatment is loaded with keratin to help repair the hair cuticle, strengthen and revitalise
-                        the hair. The ginseng extract is a hair and scalp tonic which produces stronger and healthier
-                        hair. Pro vitamins are added to prevent hair damage and improve ouster and shine.
                     </p>
                 </div>
             </div>
