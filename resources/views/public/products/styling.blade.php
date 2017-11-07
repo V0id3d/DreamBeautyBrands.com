@@ -29,20 +29,12 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-6">
-                    <h2>Light Hold</h2>
+                <div class="col-md-12">
+                    <h2>Medium Hold Shine Spray</h2>
                     <p>
                         This medium hold, flexible hairspray provides long-lasting, weightless hold for soft and
                         natural styles. Medium hold is ideal for natural styles, including easy up-dos, taming flyaway
                         and fixing blowouts.
-                    </p>
-                </div>
-                <div class="col-md-6">
-                    <h2>Strong Hold</h2>
-                    <p>
-                        A flexible hairspray for building long-lasting styles and keeping them firm, with a moveable
-                        texture. This firm-hold finishing spray is ideal for creating up-styles or protecting hair
-                        styles in tough weather environments.
                     </p>
                 </div>
             </div>
@@ -57,7 +49,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <h2>Leave In Smoothing Creme</h2>
+                    <h2>Leave In Creme</h2>
                     <p>
                         Intensive, smoothing and protective the ideal partner for achieving a perfect blow-dry. An
                         intensive, lightweight formulation that instantly boosts moisture and elasticity to leave a
@@ -68,11 +60,14 @@
                     </p>
                 </div>
                 <div class="col-md-6">
-                    <h2>Conditioning Styling Gel</h2>
+                    <h2>Leave In Spray</h2>
                     <p>
-                        Don’t just style hair, treat the hair! This gel conditions the hair without leaving flakes,
-                        while the proteins act on the hair repairing damage. Wheat, soy, rice and silk proteins restore
-                        damaged hair while providing excellent manageability.
+                        Intensive, smoothing and protective the ideal partner for achieving a perfect blow-dry. An
+                        intensive, lightweight formulation that instantly boosts moisture and elasticity to leave a
+                        unique radiance to hair. It also provides a protective shield around every hair strand to help
+                        protect hair from heat and environmental damage, eliminate frizz, reduce static and repel
+                        humidity. Use with even the most unruly types of hair to smooth, detangle and style with ease
+                        creating the perfect finish every time.
                     </p>
                 </div>
             </div>
