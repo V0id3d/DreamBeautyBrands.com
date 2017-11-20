@@ -20,43 +20,35 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <h2>Glimmer shine spray</h2>
+                    <h2>Hair Repair Spray</h2>
                     <p>
-                        Add this perfect final step to any style for beautiful, shiny hair. A finishing spray that
-                        attracts and reflects light to give hair a gorgeous glossy final finish. Infused with sunflower,
-                        tea tree oil, natural chamomile, balm mint extracts and Vitamin E, this shine spray has
-                        antioxidants that help seal in colour as well as creating an invisible protection barrier to
-                        help protect hair against harmful environmental elements like the sun, salt water and chlorine.
+                        Lightweight, moisturising and protective, this multi-purpose mist is one of a kind. Created to 
+                        deliver moisture directly to the hair strand, smoothing and adding a defensive shield to protect 
+                        the hair from environmental factors (including ultraviolet light) as well as heat styling. This 
+                        barrier helps hair to retain internal moisture and provides a smooth finish. Hair is left silky, 
+                        shiny and better able to repel the effects of humidity. Designed with a lightweight formulation 
+                        that combines proteins, aloe vera, fruit and citrus extracts for hair and scalp vitality and 
+                        thermal protection, it doesn’t weigh down the hair allowing you to create volume or finish curls 
+                        perfectly, providing long lasting frizz control.
                     </p>
                 </div>
                 <div class="col-md-4">
-                    <h2>Argan Oil Serum</h2>
+                    <h2>Styling Serum</h2>
                     <p>
-                        This ancient ingredient from Morocco is like liquid gold for the hair. A rich, smooth formula
-                        that doesn’t weigh down the hair and doesn’t feel greasy. Hair feels silky, with incredible
-                        shine. Great for smoothing flyaway and unruly hair.
+                        Our serum delivers exactly what you need: a conditioning, styling or finishing product that's 
+                        effective on both wet and dry hair. We're proud of this formulation: completely non-greasy, but 
+                        still amazing at temporarily repairing split ends and keeping frizz at bay. Great to add as a layer 
+                        of heat protectant and humidity deflector. Preserves curls and is also perfect for a straightened, 
+                        smooth look. Best of all for the stylist, when the serum is applied prior to blow drying, the drying 
+                        and styling time is significantly reduced.
                     </p>
                 </div>
                 <div class="col-md-4">
-                    <h2>Keratin & Silk Serum</h2>
+                    <h2>Styling Clay</h2>
                     <p>
-                        This serum helps to restore hair back to a healthy state. It achieves this by filling the gaps
-                        left by decreases in the hairs natural keratin. Small silk protein molecules are absorbed into
-                        the hair shaft to help restore the structure and integrity of the hair.
-                    </p>
-                </div>
-                <div class="col-md-12">
-                    <h2>Miracle Mist</h2>
-                    <p>
-                        Lightweight, moisturising and protective, this multi-purpose mist is one of a kind. Created to
-                        deliver moisture directly to the hair strand, smoothing and adding a defensive shield to protect
-                        the hair from environmental factors as well as heat styling. This barrier helps your hair to
-                        retain internal moisture and provides a smooth finish. Your hair is therefore left silky, shiny
-                        and better able to repel the effects of humidity. Designed with a lightweight formulation, it
-                        doesn’t weigh down the hair allowing you to create volume or finish curls perfectly, providing
-                        long lasting frizz control. This distinctive blend of Keratin with Argan Oil can be used as
-                        frequently as you wish, and is perfect if you want to change styles quickly, as a finishing
-                        product, or as a quick detangled for unruly or knotty hair.
+                        You'll be so pleased with the versatility and strength of our styling clay. It really enhances the memory 
+                        of the hair, so that styling lasts well beyond when they walk out the salon door. Create defined textured 
+                        looks with ease. Even better, clients like the feel of the product as it doesn't feel too heavy or stiff. 
                     </p>
                 </div>
             </div>
