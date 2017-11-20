@@ -14,22 +14,17 @@
     <section class="gradient-down">
         <div class="section-header">
             <div class="container">
-                <h1>Styling Products</h1>
+                <h1>Finishing Products</h1>
             </div>
         </div>
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <h2>Hair Repair Spray</h2>
+                    <h2>Styling Hair Spray</h2>
                     <p>
-                        Lightweight, moisturising and protective, this multi-purpose mist is one of a kind. Created to 
-                        deliver moisture directly to the hair strand, smoothing and adding a defensive shield to protect 
-                        the hair from environmental factors (including ultraviolet light) as well as heat styling. This 
-                        barrier helps hair to retain internal moisture and provides a smooth finish. Hair is left silky, 
-                        shiny and better able to repel the effects of humidity. Designed with a lightweight formulation 
-                        that combines proteins, aloe vera, fruit and citrus extracts for hair and scalp vitality and 
-                        thermal protection, it doesn’t weigh down the hair allowing you to create volume or finish curls 
-                        perfectly, providing long lasting frizz control.
+                        This medium and workable finishing hair spray covers the hair in a reflective shield of shine that
+                        helps to fights fizz and humidity, yet brushes out easily and leaves no flaky or sticky residue. This 
+                        weight is perfect for both natural styles and even complicated up-dos. 
                     </p>
                 </div>
                 <div class="col-md-4">
