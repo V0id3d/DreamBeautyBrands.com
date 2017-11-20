@@ -89,17 +89,10 @@
                         We can manufacture and package the product according to your specifications.
                     </p>
                     <p>
-                        Many companies offer Private Label services, we believe we are the best. Why? Because we work for you,
-                        as part of your team. Our interest is in getting you the best products, products that are based on what
-                        you want. We want to make it as simple as possible for you to achieve your own branded products and we
-                        have many ways to guide and help you. From a simple set-up with a stock formulation, to creating unique
-                        formulas for you, to contract manufacturing, we want to work with you.
-                    </p>
-                    <p>
                         Be inspired and be creative with your requirements for your new range. We love a challenge and we
                         especially love working on something new and unique. The possibilities are endless. The combinations
                         are infinite. There is no catalogue that can display the all the possible options we can produce. Simply
-                        if you can imagine it, we can probably create it - well we will give it our best shot at perfection!
+                        if you can imagine it, we can probably create it - well, we will give it our best shot at perfection!
                     </p>
                     <p>
                         Like yourself, we work in the hair and beauty industry. We have worked with all the big names and
@@ -109,20 +102,6 @@
                         only products and now there is little business left for the hair salons. The product ranges have
                         become so big and mass market that they are almost unaffordable to stock and the salon support just
                         isn’t there anymore.
-                    </p>
-                    <p>
-                        If you have an existing formulation, we can evaluate it and help improve the quality and / or lower
-                        the cost. We can manufacture and package the product according to your specifications.
-                    </p>
-                    <p>
-                       Be inspired and be creative with your requirements for your new range. We love a challenge and we 
-                       especially love working on something new and unique. The possibilities are endless. The combinations 
-                       are infinite. There is no catalogue that can display all the possible options we can produce.  If 
-                       you can imagine it, we can probably create it - well we will give it our best shot at perfection!
-                    </p>
-                    <p>
-                      Like yourself, we work in the hair and beauty industry. We have worked with all the big names and we 
-                      have seen a substantial amount of change in the way the industry works over recent years.
                     </p>
                     <p>
                         There is little respect given to professional products anymore and I’m sure you’ll agree, times are 
@@ -187,9 +166,9 @@
                 {{--Section Text--}}
                 <div class="col-md-5 section-text" style="margin-top: 60px;">
                     <p>
-                        We’ve picked two of the most popular bottle ranges to offer to you. If you would prefer something completely 
+                        We’ve picked the most popular bottle range to offer to you. If you would prefer something completely 
                         different, just ask. Classic & Classy - these have two different price points. You can strategically differentiate 
-                        these with you own label design.
+                        these with your own label design.
                     </p>
                     <blockquote>
                         <strong>Be inspired. Be creative.</strong> Think of something new. Think of something unique. Your ideas are the 
@@ -284,7 +263,7 @@
                                     <h3>Production</h3>
                                     <p>
                                         Your products go to production, and the dream of your own brand is realised! This is the most exciting stage for
-                                        us and we will keep you in the loop at ever stage from making the formulation, to preparing the packaging for 
+                                        us and we will keep you in the loop at every stage from making the formulation, to preparing the packaging for 
                                         shipment.
                                     </p>
                                 </div>
@@ -297,7 +276,7 @@
                                     <h3>Product Is Shipped</h3>
                                     <p>
                                         Products are shipped directly to your salon. If space is tight, we can hold stock on your behalf and ship 
-                                        in an agreed times.
+                                        at an agreed times.
                                     </p>
                                 </div>
                             </div>
